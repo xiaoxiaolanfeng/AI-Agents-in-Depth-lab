@@ -1,0 +1,47 @@
+{
+  "_comment": "Illustrative canned answers produced by four memory configurations (as described in book chapter 3 / experiment 3-1) on the eight annotated test cases. These are EXAMPLE inputs for the offline comparison; the scores in the comparison table are computed from them by the keyword-recall metric, not hand-written. 'full_context' keeps the raw conversations in context, 'json_cards' is Advanced JSON Cards, 'simple_notes' is Simple Notes, 'no_memory' has no memory system.",
+
+  "full_context": {
+    "layer1_01_bank_account": "Your checking account number is 4429853327, and for the direct deposit form you'll also need the routing number 123006800.",
+    "layer1_02_insurance_claim": "Your claim number is CLM-2024-894327. The adjuster, Patricia Wong, is scheduled to call you within 24-48 hours at your updated number 916-555-8899.",
+    "layer1_03_medical_appointment": "Your appointment is on Thursday, November 21st at 2:30 PM with Dr. Robert Chen (confirmation number MV-789234). Remember to arrive 15 minutes early as a new patient.",
+    "layer1_04_airline_booking": "Your confirmation number is PAC-778K4M. You selected seat 12C on the outbound flight and seat 14C on the return flight - both aisle seats.",
+    "layer2_01_multiple_vehicles": "You actually have two vehicles on file: a Honda Accord with a service appointment on Nov 24 at Firestone (confirmation FS-447291), and a Tesla Model 3 with no service currently scheduled. Which vehicle did you want to schedule service for?",
+    "layer2_03_multiple_credit_cards": "For booking flights I'd use your Amex Gold Card - it earns 3x points on airfare with no foreign transaction fee, which beats the Chase Freedom Unlimited's 1.5% cashback (and that Chase card is currently being replaced due to fraud).",
+    "layer3_01_travel_coordination": "Before Tokyo, one urgent item: your passport expires February 18, 2025, less than a month after your January 22 return, so renew it (expedited) immediately, then update your Delta booking DELTA-JMK892 with the new number. Also set up your Priority Pass for lounge access; note your Chase Sapphire Reserve has no foreign transaction fees.",
+    "layer3_04_warranty_coordination": "Your MacBook Pro is best covered by the Chase Sapphire Reserve extended warranty, which runs until March 2026 - file the claim with Chase first. Apple's own warranty won't cover the cracked screen, and out-of-pocket Apple repair runs about $600-800."
+  },
+
+  "json_cards": {
+    "layer1_01_bank_account": "Your checking account number is 4429853327. For the direct deposit setup you'll also want routing number 123006800.",
+    "layer1_02_insurance_claim": "Claim CLM-2024-894327 - the adjuster Patricia Wong will call you within 24-48 hours.",
+    "layer1_03_medical_appointment": "You're seeing Dr. Robert Chen on November 21 at 2:30 PM, confirmation MV-789234.",
+    "layer1_04_airline_booking": "Your confirmation is PAC-778K4M, with seats 12C (outbound) and 14C (return).",
+    "layer2_01_multiple_vehicles": "You own a Honda Accord (service booked Nov 24, confirmation FS-447291) and a Tesla Model 3 (no service scheduled yet). Which one should I schedule?",
+    "layer2_03_multiple_credit_cards": "For flights, use the Amex Gold Card - it earns 3x points on airfare - rather than the Chase Freedom Unlimited, which only earns 1.5%.",
+    "layer3_01_travel_coordination": "Before your Tokyo trip: your passport expires Feb 18, 2025, so renew it immediately, then update the Delta booking DELTA-JMK892. Also activate your Priority Pass.",
+    "layer3_04_warranty_coordination": "File under your Chase Sapphire Reserve extended warranty - it covers the MacBook Pro until March 2026. Alternative option: an out-of-pocket Apple repair around $600-800."
+  },
+
+  "simple_notes": {
+    "layer1_01_bank_account": "Your checking account number is 4429853327.",
+    "layer1_02_insurance_claim": "Your claim number is CLM-2024-894327 and an adjuster will follow up with you soon.",
+    "layer1_03_medical_appointment": "You have a doctor's appointment on November 21 with Dr. Robert Chen.",
+    "layer1_04_airline_booking": "Your flight confirmation number is PAC-778K4M.",
+    "layer2_01_multiple_vehicles": "Your Honda Accord has a service appointment scheduled on Nov 24.",
+    "layer2_03_multiple_credit_cards": "You should be able to use your Chase Freedom Unlimited card for the booking.",
+    "layer3_01_travel_coordination": "Have a great trip to Tokyo in January! Make sure you're packed and check in online ahead of time.",
+    "layer3_04_warranty_coordination": "You could take the MacBook in to an Apple Store to ask about a screen repair."
+  },
+
+  "no_memory": {
+    "layer1_01_bank_account": "I don't have access to your account details. Please check your bank statement or online banking.",
+    "layer1_02_insurance_claim": "Could you provide your claim number so I can look up the status for you?",
+    "layer1_03_medical_appointment": "I don't have your appointment on file - could you tell me when it was scheduled?",
+    "layer1_04_airline_booking": "Please check your booking confirmation email for the confirmation number and seat details.",
+    "layer2_01_multiple_vehicles": "Which car are you referring to? I don't have any vehicle records for you.",
+    "layer2_03_multiple_credit_cards": "Which credit cards do you have? I'm not able to see your accounts.",
+    "layer3_01_travel_coordination": "Enjoy Tokyo! Is there anything specific you'd like help preparing?",
+    "layer3_04_warranty_coordination": "I'd recommend contacting the manufacturer or your retailer about repair options."
+  }
+}

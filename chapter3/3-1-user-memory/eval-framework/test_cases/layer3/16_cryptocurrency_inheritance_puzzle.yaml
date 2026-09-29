@@ -1,0 +1,793 @@
+test_id: layer3_16_cryptocurrency_inheritance_puzzle
+category: layer3
+title: Cryptocurrency Inheritance Puzzle
+description: Tests ability to connect computer repair service call, bank safe deposit
+  box inquiry, and divorce mediation discussion to uncover hidden cryptocurrency assets
+  affecting estate planning
+conversation_histories:
+- conversation_id: computer_repair_service
+  timestamp: '2024-01-22'
+  messages:
+  - role: user
+    content: Hi, I need help with my late husband's computer. It won't start
+  - role: assistant
+    content: I'm sorry for your loss. I can help with the computer. What seems to
+      be the problem?
+  - role: user
+    content: It just shows a black screen when I turn it on
+  - role: assistant
+    content: How old is the computer?
+  - role: user
+    content: Maybe four years? He used it for work
+  - role: assistant
+    content: What kind of work did he do?
+  - role: user
+    content: Software development and some investing
+  - role: assistant
+    content: I see. When did it stop working?
+  - role: user
+    content: I tried turning it on last week
+  - role: assistant
+    content: Had it been off for a while?
+  - role: user
+    content: Since he passed three months ago
+  - role: assistant
+    content: Might just need a new battery or power supply
+  - role: user
+    content: I hope it's simple. I need to access his files
+  - role: assistant
+    content: For financial records?
+  - role: user
+    content: Yes, and work projects he was doing
+  - role: assistant
+    content: Do you have his passwords?
+  - role: user
+    content: Some of them, written in a notebook
+  - role: assistant
+    content: That's helpful. Bring both the computer and notebook
+  - role: user
+    content: There's also an external drive
+  - role: assistant
+    content: Definitely bring that too
+  - role: user
+    content: It has a strange label - 'Cold Storage'
+  - role: assistant
+    content: Interesting. Might be important backups
+  - role: user
+    content: He was always paranoid about backups
+  - role: assistant
+    content: Smart for a developer
+  - role: user
+    content: He had multiple drives actually
+  - role: assistant
+    content: How many?
+  - role: user
+    content: Three or four in his office
+  - role: assistant
+    content: All labeled?
+  - role: user
+    content: Different labels - 'Wallet Backup', 'Keys 2021', things like that
+  - role: assistant
+    content: Those sound like encryption keys
+  - role: user
+    content: Encryption?
+  - role: assistant
+    content: For securing data
+  - role: user
+    content: He did mention something about encryption
+  - role: assistant
+    content: Was he into cryptocurrency by chance?
+  - role: user
+    content: He mentioned Bitcoin once or twice
+  - role: assistant
+    content: Those drive labels suggest crypto storage
+  - role: user
+    content: Really? Is that valuable?
+  - role: assistant
+    content: Depends when he bought it
+  - role: user
+    content: He was always buying odd investments
+  - role: assistant
+    content: Crypto requires careful handling
+  - role: user
+    content: Why?
+  - role: assistant
+    content: Lost passwords mean lost money
+  - role: user
+    content: Oh no
+  - role: assistant
+    content: Do you have a phrase of random words written anywhere?
+  - role: user
+    content: Actually yes, in his safe
+  - role: assistant
+    content: How many words?
+  - role: user
+    content: Twelve or twenty-four
+  - role: assistant
+    content: That's likely a recovery phrase
+  - role: user
+    content: For what?
+  - role: assistant
+    content: Cryptocurrency wallet
+  - role: user
+    content: Is that important?
+  - role: assistant
+    content: Extremely. Don't share it with anyone
+  - role: user
+    content: I have it at home
+  - role: assistant
+    content: Keep it very secure
+  - role: user
+    content: Should I bring it?
+  - role: assistant
+    content: No, never carry it around
+  - role: user
+    content: Okay
+  - role: assistant
+    content: We can check the computer for wallet software
+  - role: user
+    content: How would I know?
+  - role: assistant
+    content: Programs like Electrum, Exodus, MetaMask
+  - role: user
+    content: I'll have to look
+  - role: assistant
+    content: Also check browser bookmarks
+  - role: user
+    content: For what?
+  - role: assistant
+    content: Exchange websites - Coinbase, Kraken, Binance
+  - role: user
+    content: He did have a Coinbase account
+  - role: assistant
+    content: You'll need access to that
+  - role: user
+    content: I have his email
+  - role: assistant
+    content: Good start
+  - role: user
+    content: But not his phone for two-factor
+  - role: assistant
+    content: That complicates things
+  - role: user
+    content: His phone was destroyed in the accident
+  - role: assistant
+    content: You'll need to contact Coinbase support
+  - role: user
+    content: With death certificate?
+  - role: assistant
+    content: Yes, they have an inheritance process
+  - role: user
+    content: This is more complex than expected
+  - role: assistant
+    content: Crypto estates often are
+  - role: user
+    content: Should I get professional help?
+  - role: assistant
+    content: For significant amounts, yes
+  - role: user
+    content: How much is significant?
+  - role: assistant
+    content: Depends on your situation
+  - role: user
+    content: He once said he bought Bitcoin at $100
+  - role: assistant
+    content: Per Bitcoin? When?
+  - role: user
+    content: Maybe 2013?
+  - role: assistant
+    content: That's now worth about $40,000 each
+  - role: user
+    content: Each?
+  - role: assistant
+    content: If he bought multiple...
+  - role: user
+    content: He usually invested $10,000 at a time
+  - role: assistant
+    content: That could be 100 Bitcoins
+  - role: user
+    content: Worth?
+  - role: assistant
+    content: $4 million at current prices
+  - role: user
+    content: That can't be right
+  - role: assistant
+    content: Early investors saw huge gains
+  - role: user
+    content: We're not millionaires
+  - role: assistant
+    content: He might not have told you
+  - role: user
+    content: Why wouldn't he?
+  - role: assistant
+    content: Tax implications, volatility, security
+  - role: user
+    content: He was secretive about finances
+  - role: assistant
+    content: Common with crypto investors
+  - role: user
+    content: What should I do?
+  - role: assistant
+    content: Secure all devices and passwords
+  - role: user
+    content: Then?
+  - role: assistant
+    content: Get professional crypto estate help
+  - role: user
+    content: From who?
+  - role: assistant
+    content: Specialized attorneys or accountants
+  - role: user
+    content: This is overwhelming
+  - role: assistant
+    content: Bring the computer tomorrow
+  - role: user
+    content: What time?
+  - role: assistant
+    content: How's 10 AM?
+  - role: user
+    content: Perfect
+  - role: assistant
+    content: We'll do a careful inventory
+  - role: user
+    content: Thank you
+  - role: assistant
+    content: Protect those word phrases
+  - role: user
+    content: I will
+  - role: assistant
+    content: See you tomorrow
+- conversation_id: bank_safe_deposit_inquiry
+  timestamp: '2024-04-10'
+  messages:
+  - role: user
+    content: I need to access my late husband's safe deposit box
+  - role: assistant
+    content: I'm sorry for your loss. Do you have the key?
+  - role: user
+    content: I found several keys in his desk
+  - role: assistant
+    content: What's the box number?
+  - role: user
+    content: I don't know, that's the problem
+  - role: assistant
+    content: Let me look up his name. David Mitchell?
+  - role: user
+    content: 'Yes'
+  - role: assistant
+    content: I show box 447 and box 892
+  - role: user
+    content: Two boxes?
+  - role: assistant
+    content: Yes, both in his name only
+  - role: user
+    content: I didn't know about the second one
+  - role: assistant
+    content: Box 892 was opened in 2019
+  - role: user
+    content: That's odd
+  - role: assistant
+    content: Annual fee is current on both
+  - role: user
+    content: How do I access them?
+  - role: assistant
+    content: You'll need the death certificate and estate documents
+  - role: user
+    content: I have the death certificate
+  - role: assistant
+    content: Are you the executor?
+  - role: user
+    content: Yes, named in his will
+  - role: assistant
+    content: Bring the will and death certificate
+  - role: user
+    content: Can I access them today?
+  - role: assistant
+    content: With proper documents, yes
+  - role: user
+    content: What might be in them?
+  - role: assistant
+    content: People store valuables, documents, investments
+  - role: user
+    content: He was secretive about investments
+  - role: assistant
+    content: Many people keep bonds or gold
+  - role: user
+    content: He did buy gold coins once
+  - role: assistant
+    content: Physical assets are common
+  - role: user
+    content: What else?
+  - role: assistant
+    content: Important papers, deeds, certificates
+  - role: user
+    content: Stock certificates?
+  - role: assistant
+    content: Less common now, mostly electronic
+  - role: user
+    content: He liked physical backups
+  - role: assistant
+    content: Some people store digital media
+  - role: user
+    content: Like USB drives?
+  - role: assistant
+    content: Yes, with important data
+  - role: user
+    content: He had several of those
+  - role: assistant
+    content: For sensitive information
+  - role: user
+    content: What kind?
+  - role: assistant
+    content: passwords, financial records
+  - role: user
+    content: Or cryptocurrency?
+  - role: assistant
+    content: That's increasingly common
+  - role: user
+    content: My computer guy mentioned that
+  - role: assistant
+    content: Many crypto investors use safe deposit boxes
+  - role: user
+    content: For the passwords?
+  - role: assistant
+    content: For seed phrases and keys
+  - role: user
+    content: Seed phrases?
+  - role: assistant
+    content: Recovery words for wallets
+  - role: user
+    content: I found a paper with random words
+  - role: assistant
+    content: How many words?
+  - role: user
+    content: Twenty-four
+  - role: assistant
+    content: That's a standard seed phrase
+  - role: user
+    content: It was in our home safe
+  - role: assistant
+    content: There might be more in the deposit box
+  - role: user
+    content: More wallets?
+  - role: assistant
+    content: People often diversify
+  - role: user
+    content: He did like to spread risk
+  - role: assistant
+    content: Smart for volatile assets
+  - role: user
+    content: Are these boxes fireproof?
+  - role: assistant
+    content: Yes, and water-resistant
+  - role: user
+    content: Good for paper storage
+  - role: assistant
+    content: Exactly
+  - role: user
+    content: What about insurance?
+  - role: assistant
+    content: Bank doesn't insure contents
+  - role: user
+    content: So if something's valuable?
+  - role: assistant
+    content: You need separate insurance
+  - role: user
+    content: He never mentioned that
+  - role: assistant
+    content: Many people don't realize
+  - role: user
+    content: What happens if I can't find the keys?
+  - role: assistant
+    content: We can drill the locks
+  - role: user
+    content: Is that expensive?
+  - role: assistant
+    content: $150 per box plus new locks
+  - role: user
+    content: I'll keep looking for keys
+  - role: assistant
+    content: Check unusual hiding spots
+  - role: user
+    content: He had a workshop
+  - role: assistant
+    content: Often kept separately for security
+  - role: user
+    content: Makes sense
+  - role: assistant
+    content: When would you like to come in?
+  - role: user
+    content: Tomorrow afternoon?
+  - role: assistant
+    content: Bring all documentation
+  - role: user
+    content: Will do
+  - role: assistant
+    content: And any keys you've found
+  - role: user
+    content: I have six keys
+  - role: assistant
+    content: We'll try them all
+  - role: user
+    content: Can someone help me understand what I find?
+  - role: assistant
+    content: We can't advise, but can refer specialists
+  - role: user
+    content: For cryptocurrency?
+  - role: assistant
+    content: Or estate valuation
+  - role: user
+    content: I might need both
+  - role: assistant
+    content: Bring a trusted person if you want
+  - role: user
+    content: My son is helping
+  - role: assistant
+    content: Good to have support
+  - role: user
+    content: This is so stressful
+  - role: assistant
+    content: Take your time tomorrow
+  - role: user
+    content: Thank you
+  - role: assistant
+    content: We have a private room for box viewing
+  - role: user
+    content: Good, I might get emotional
+  - role: assistant
+    content: Completely understandable
+  - role: user
+    content: See you tomorrow
+  - role: assistant
+    content: We'll take good care of you
+- conversation_id: divorce_mediation_preparation
+  timestamp: '2024-06-25'
+  messages:
+  - role: user
+    content: I need help preparing financial disclosures for mediation
+  - role: assistant
+    content: I can guide you through that. Is this for divorce mediation?
+  - role: user
+    content: Yes, though it's complicated by my husband's death
+  - role: assistant
+    content: I'm sorry. Was divorce in process when he passed?
+  - role: user
+    content: We separated but hadn't filed yet
+  - role: assistant
+    content: That does complicate things. When did he pass?
+  - role: user
+    content: Six months ago
+  - role: assistant
+    content: And you were separated?
+  - role: user
+    content: For about a year before that
+  - role: assistant
+    content: Did you have a separation agreement?
+  - role: user
+    content: Informal, nothing legal
+  - role: assistant
+    content: Who's the mediation with now?
+  - role: user
+    content: His children from his first marriage
+  - role: assistant
+    content: They're contesting the estate?
+  - role: user
+    content: They claim he had hidden assets
+  - role: assistant
+    content: What kind of assets?
+  - role: user
+    content: They mentioned investments I didn't know about
+  - role: assistant
+    content: Were finances separate?
+  - role: user
+    content: Partially. He managed investments
+  - role: assistant
+    content: Did he have investment accounts?
+  - role: user
+    content: Traditional ones, yes
+  - role: assistant
+    content: Those should be documented
+  - role: user
+    content: The kids think there's more
+  - role: assistant
+    content: Based on what?
+  - role: user
+    content: His lifestyle versus known income
+  - role: assistant
+    content: Was there a discrepancy?
+  - role: user
+    content: He spent more than his salary explained
+  - role: assistant
+    content: On what?
+  - role: user
+    content: Cars, electronics, trips
+  - role: assistant
+    content: Without debt?
+  - role: user
+    content: No credit card debt
+  - role: assistant
+    content: Suggests other income
+  - role: user
+    content: That's what they're claiming
+  - role: assistant
+    content: Have you found anything?
+  - role: user
+    content: Some cryptocurrency
+  - role: assistant
+    content: How much?
+  - role: user
+    content: Still determining
+  - role: assistant
+    content: That could be significant
+  - role: user
+    content: The kids knew about it?
+  - role: assistant
+    content: His son helped him buy it originally
+  - role: user
+    content: When?
+  - role: assistant
+    content: 2013, he says
+  - role: user
+    content: I found evidence of 2013 purchases
+  - role: assistant
+    content: How much?
+  - role: user
+    content: About $10,000 invested
+  - role: assistant
+    content: Worth now?
+  - role: user
+    content: Possibly millions
+  - role: assistant
+    content: That changes everything
+  - role: user
+    content: The son wants half
+  - role: assistant
+    content: Based on?
+  - role: user
+    content: He says it was meant for them
+  - role: assistant
+    content: Any documentation?
+  - role: user
+    content: Text messages
+  - role: assistant
+    content: Recent?
+  - role: user
+    content: From when we separated
+  - role: assistant
+    content: What did they say?
+  - role: user
+    content: That he'd protect assets for kids
+  - role: assistant
+    content: From the divorce?
+  - role: user
+    content: Apparently
+  - role: assistant
+    content: That could be problematic
+  - role: user
+    content: Why?
+  - role: assistant
+    content: Hiding assets in divorce is illegal
+  - role: user
+    content: But we hadn't filed
+  - role: assistant
+    content: Separation still counts
+  - role: user
+    content: So what happens?
+  - role: assistant
+    content: Depends on state law
+  - role: user
+    content: We're in Oregon
+  - role: assistant
+    content: Community property state
+  - role: user
+    content: So I own half?
+  - role: assistant
+    content: Of marital assets, yes
+  - role: user
+    content: Even crypto?
+  - role: assistant
+    content: If acquired during marriage
+  - role: user
+    content: It was
+  - role: assistant
+    content: Then it's marital property
+  - role: user
+    content: The kids disagree
+  - role: assistant
+    content: Hence the mediation
+  - role: user
+    content: What do I need to prove?
+  - role: assistant
+    content: When assets were acquired
+  - role: user
+    content: I have some records
+  - role: assistant
+    content: Bank statements showing purchases?
+  - role: user
+    content: Yes, from our joint account
+  - role: assistant
+    content: That's strong evidence
+  - role: user
+    content: But he moved them somewhere
+  - role: assistant
+    content: To private wallets?
+  - role: user
+    content: I think so
+  - role: assistant
+    content: After separation?
+  - role: user
+    content: Some before, some after
+  - role: assistant
+    content: Timeline matters legally
+  - role: user
+    content: Why?
+  - role: assistant
+    content: Post-separation might be his
+  - role: user
+    content: He was trading until he died
+  - role: assistant
+    content: Active trading?
+  - role: user
+    content: Daily, his computer shows
+  - role: assistant
+    content: Generating gains?
+  - role: user
+    content: Substantial, apparently
+  - role: assistant
+    content: Tax implications?
+  - role: user
+    content: He never reported crypto
+  - role: assistant
+    content: That's tax evasion
+  - role: user
+    content: I didn't know
+  - role: assistant
+    content: You filed jointly?
+  - role: user
+    content: Until we separated
+  - role: assistant
+    content: You could have liability
+  - role: user
+    content: For taxes?
+  - role: assistant
+    content: On unreported gains
+  - role: user
+    content: How much?
+  - role: assistant
+    content: Depends on trading volume
+  - role: user
+    content: Hundreds of trades
+  - role: assistant
+    content: Each taxable
+  - role: user
+    content: This is a mess
+  - role: assistant
+    content: You need a tax attorney
+  - role: user
+    content: And a crypto expert
+  - role: assistant
+    content: Yes, before mediation
+  - role: user
+    content: It's next week
+  - role: assistant
+    content: Can you postpone?
+  - role: user
+    content: The kids are pushing
+  - role: assistant
+    content: They might not know about taxes
+  - role: user
+    content: Should I tell them?
+  - role: assistant
+    content: Your attorney should
+  - role: user
+    content: It affects their inheritance
+  - role: assistant
+    content: Significantly
+  - role: user
+    content: They won't be happy
+  - role: assistant
+    content: Better than IRS surprise
+  - role: user
+    content: 'True'
+  - role: assistant
+    content: Get professional help immediately
+user_question: The IRS just sent me a notice about $2.8 million in unreported cryptocurrency
+  gains, but I thought my husband only had a small Bitcoin investment. What's my actual
+  exposure here?
+evaluation_criteria: 'The agent must synthesize three conversations to uncover the
+  complete cryptocurrency situation:
+
+
+  Asset Discovery Timeline:
+
+  - 2013: Initial $10,000 Bitcoin investment (100+ BTC at ~$100 each)
+
+  - 2019: Second safe deposit box opened (likely for additional crypto storage)
+
+  - Year before death: Separation begins, asset hiding starts
+
+  - Daily trading until death generating gains
+
+  - Multiple wallets across drives and safe deposit boxes
+
+
+  Hidden Connections:
+
+  1. Computer repair revealed "Cold Storage", "Wallet Backup", "Keys 2021" drives
+
+  2. Bank revealed TWO safe deposit boxes with likely seed phrases
+
+  3. Divorce mediation revealed active daily trading and asset concealment
+
+
+  True Crypto Portfolio:
+
+  - Original: 100+ Bitcoin worth $4+ million
+
+  - Multiple wallets (home safe + 2 deposit boxes)
+
+  - Active trading generating substantial gains
+
+  - Son knew about and helped with initial purchase
+
+  - Husband planned to hide from divorce
+
+
+  Tax Liability Explosion:
+
+  - Hundreds of trades, each taxable event
+
+  - Never reported on joint tax returns
+
+  - Wife has joint liability for tax years filed together
+
+  - $2.8 million IRS notice likely just the beginning
+
+  - Penalties and interest could double the amount
+
+
+  Legal Complications:
+
+  1. Marital property (bought during marriage from joint account)
+
+  2. Attempted concealment during separation (illegal)
+
+  3. Son''s claim based on promise to hide assets (fraudulent)
+
+  4. Estate now liable for all taxes
+
+  5. Wife personally liable for joint return years
+
+
+  Documentation Trail:
+
+  - 24-word seed phrase found (one wallet)
+
+  - Multiple drives with wallet backups
+
+  - Two safe deposit boxes with unknown contents
+
+  - Coinbase account (need death certificate access)
+
+  - Computer showing daily trading history
+
+
+  Financial Exposure:
+
+  - Crypto assets: $4+ million minimum
+
+  - Tax liability: $2.8 million + penalties + interest
+
+  - Potential criminal tax evasion charges
+
+  - Joint filer liability for unreported income
+
+  - Kids'' inheritance claims vs. marital property rights
+
+
+  The agent must recognize the husband built an extensive crypto portfolio over years,
+  actively concealed it during separation, never paid taxes, and left the wife exposed
+  to massive tax liability while his kids claim inheritance rights to assets that
+  are legally marital property.
+
+  '

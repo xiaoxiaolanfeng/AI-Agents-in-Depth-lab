@@ -1,0 +1,1012 @@
+{
+  "modes": {
+    "notes": {
+      "mode": "notes",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 15
+      },
+      "memory_snapshot": {
+        "type": "notes",
+        "items": [
+          {
+            "note_id": "59970478-94fa-4d72-892f-5a3133731276",
+            "content": "Full name is David Christopher Thompson, born August 9, 1979.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.868683",
+            "updated_at": "2026-09-26T20:56:51.868683",
+            "tags": [
+              "personal",
+              "identity"
+            ]
+          },
+          {
+            "note_id": "cc49e479-cb3d-45a0-9f1f-c99c69a8fae0",
+            "content": "Lives at 4521 Pine Valley Road, Denver, Colorado, 80203. Cell phone: 303-555-7621. Email: dthompson79@email.com. Prefers text message reminders.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.871760",
+            "updated_at": "2026-09-26T20:56:51.871760",
+            "tags": [
+              "personal",
+              "contact"
+            ]
+          },
+          {
+            "note_id": "705e26a4-0024-4c41-8047-d8a96eda9d62",
+            "content": "Works for Meridian Software Solutions.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.875336",
+            "updated_at": "2026-09-26T20:56:51.875336",
+            "tags": [
+              "personal",
+              "employment"
+            ]
+          },
+          {
+            "note_id": "f91795be-00dd-40fb-a42e-e8381eace6e6",
+            "content": "Married to Emily Thompson (same address, cell 303-555-7622), who is his emergency contact. She has noted he sometimes snores.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.878348",
+            "updated_at": "2026-09-26T20:56:51.878348",
+            "tags": [
+              "personal",
+              "family"
+            ]
+          },
+          {
+            "note_id": "52f3cabf-1a96-42ba-b8b8-fa5f17f669b7",
+            "content": "Has Blue Cross Blue Shield insurance through his employer (Meridian Software Solutions). Member ID: BCB447829563, Group number: 78845-001. He is the primary insurance holder and has no secondary insurance.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.881342",
+            "updated_at": "2026-09-26T20:56:51.881342",
+            "tags": [
+              "insurance"
+            ]
+          },
+          {
+            "note_id": "19fda893-f603-44e2-bf39-9f168bc5621f",
+            "content": "Previous primary care physician was Dr. Sarah Mitchell at Denver General, whom he saw for about five years until she retired. Records can be requested from her office.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.883937",
+            "updated_at": "2026-09-26T20:56:51.883937",
+            "tags": [
+              "medical",
+              "provider"
+            ]
+          },
+          {
+            "note_id": "2790ef76-6d4f-4b2e-bb59-79753a956049",
+            "content": "New patient at Mountain View Medical Center. New primary care doctor is Dr. Robert Chen. Appointment scheduled for Thursday, November 21st at 2:30 PM at Medical Arts Building, 750 Broadway, Suite 200, Denver (two blocks south of the main library, attached parking garage with validation). Confirmation number: MV-789234.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.888963",
+            "updated_at": "2026-09-26T20:56:51.888963",
+            "tags": [
+              "medical",
+              "appointment"
+            ]
+          },
+          {
+            "note_id": "ab5ee37c-6901-4c22-af46-5fc5bf2bee5f",
+            "content": "Has high blood pressure, diagnosed about three years ago. Also experiencing lower back pain for about six weeks, worse with prolonged sitting, rated 4-5 out of 10, occasionally spiking to 7.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.891966",
+            "updated_at": "2026-09-26T20:56:51.891966",
+            "tags": [
+              "medical",
+              "conditions"
+            ]
+          },
+          {
+            "note_id": "c7c0b05b-4676-4f24-86ee-defe7b27a7d6",
+            "content": "Current medications: Lisinopril 10mg once daily (blood pressure), Atorvastatin 20mg at night (cholesterol), Omeprazole 20mg every morning (acid reflux, started about a month ago). Also takes a daily multivitamin and vitamin D 2000 units.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.895750",
+            "updated_at": "2026-09-26T20:56:51.895750",
+            "tags": [
+              "medical",
+              "medications"
+            ]
+          },
+          {
+            "note_id": "09580bae-2bc4-4362-b77e-ac573b3c525e",
+            "content": "Allergies: penicillin (breaks out in hives), seasonal allergies (mainly tree pollen in spring), and is lactose intolerant.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.897733",
+            "updated_at": "2026-09-26T20:56:51.897733",
+            "tags": [
+              "medical",
+              "allergies"
+            ]
+          },
+          {
+            "note_id": "778584c3-fb54-48c8-97c0-6a93a5c4005d",
+            "content": "Surgical/hospital history: appendix removed in 2010, ACL repair on left knee in 2018 (both without complications), hospitalized for pneumonia in 2021 for two days.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.902259",
+            "updated_at": "2026-09-26T20:56:51.902259",
+            "tags": [
+              "medical",
+              "history"
+            ]
+          },
+          {
+            "note_id": "ec6c942e-16c5-4acc-b58d-a055ad2c6e8f",
+            "content": "Family medical history: mother is 72 (arthritis, high cholesterol); father passed away five years ago from a heart attack at age 68 (also had diabetes and high blood pressure); one sister, 45, healthy but recently diagnosed with thyroid issues; maternal grandmother had breast cancer; paternal grandfather had prostate cancer.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.906018",
+            "updated_at": "2026-09-26T20:56:51.906018",
+            "tags": [
+              "medical",
+              "family-history"
+            ]
+          },
+          {
+            "note_id": "9ad3f73e-3e6c-4ae9-ba6d-7e68dbdaa041",
+            "content": "Lifestyle: non-smoker (never used tobacco), drinks one to two glasses of wine on weekends, no recreational drug use. Exercises at the gym about three times a week (cardio and light weights), though back pain has limited him lately.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.908062",
+            "updated_at": "2026-09-26T20:56:51.908062",
+            "tags": [
+              "medical",
+              "lifestyle"
+            ]
+          },
+          {
+            "note_id": "fd3d84a0-1c75-4ecb-8ac2-66f79709f2cf",
+            "content": "Physical stats: 5 feet 11 inches tall, weighs 195 pounds (gained about 10 pounds over the past year). Sometimes has trouble falling asleep, especially when his back is bothering him.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.911663",
+            "updated_at": "2026-09-26T20:56:51.911663",
+            "tags": [
+              "medical",
+              "vitals"
+            ]
+          },
+          {
+            "note_id": "51e96c3b-dabc-4b07-8573-492f9226335f",
+            "content": "Health maintenance: last physical exam and blood work were about 14 months ago (with Dr. Mitchell), last eye exam about two years ago, dental visit last month. Immunizations: fully vaccinated for COVID with two boosters (last in September), flu shot in October, tetanus booster about two years ago after stepping on a nail.",
+            "session_id": "session-88335be6",
+            "created_at": "2026-09-26T20:56:51.914328",
+            "updated_at": "2026-09-26T20:56:51.914328",
+            "tags": [
+              "medical",
+              "maintenance"
+            ]
+          }
+        ]
+      },
+      "response": "David, here’s what your records show for your upcoming appointment:\n\n- **Doctor:** Dr. Robert Chen — your new primary care doctor at Mountain View Medical Center  \n- **Date:** Thursday, November 21  \n- **Time:** 2:30 PM  \n- **Location:** Medical Arts Building, 750 Broadway, Suite 200, Denver  \n- **Confirmation number:** MV-789234  \n\nIf you’re calling to confirm, reference confirmation number **MV-789234**. One quick note: your record says “Thursday, November 21,” so if the office calendar shows a different weekday for that date, it may be worth double-checking with them.",
+      "reward": 1.0,
+      "passed": true,
+      "reasoning": "The agent accurately and completely retrieved the scheduled appointment: Dr. Robert Chen, Thursday, November 21st at 2:30 PM, with correct location and confirmation number. It correctly avoided the distractor (Dr. Wang) and added a relevant confirmation reference. No material factual claim is unsupported or contradicted.",
+      "required_info_found": {
+        "doctor name (Dr. Robert Chen)": 1.0,
+        "appointment date (Thursday, November 21)": 1.0,
+        "appointment time (2:30 PM)": 1.0,
+        "confirmation number (MV-789234)": 1.0,
+        "location (Medical Arts Building, 750 Broadway, Suite 200, Denver)": 1.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "All stated facts are exact and match the authoritative source: doctor (Dr. Robert Chen), date (Thursday, November 21), time (2:30 PM), location (Medical Arts Building, 750 Broadway, Suite 200, Denver), and confirmation number (MV-789234). No wrong digits, dates, or persons, and no confusion with Dr. Wang (the unselected alternative)."
+        },
+        "recall": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The response answers the direct question (day/time and doctor) and also supplies the confirmation number requested as an 'ideal' retained detail, plus location. Nothing required by the question or evaluation criteria is missing."
+        },
+        "reasoning": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The agent correctly disambiguated between the two offered physicians, selecting Dr. Chen (the one actually scheduled) and not Dr. Wang (merely an option). Ownership/relationship of the appointment to David is correctly maintained."
+        },
+        "proactivity": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The agent adds a useful, safe next step: it supplies the confirmation number to reference when calling to confirm. This is directly relevant to the confirmation context and not invented remembered fact. The optional 15-minute-early/fasting reminders were not required."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "Every remembered fact in the response is directly supported by the intake conversation. The closing caveat about the weekday is framed conditionally as advice ('if the office calendar shows a different weekday...'), not asserted as remembered fact, so it does not constitute a hallucination."
+      }
+    },
+    "enhanced_notes": {
+      "mode": "enhanced_notes",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 10
+      },
+      "memory_snapshot": {
+        "type": "notes",
+        "items": [
+          {
+            "note_id": "0df8a53e-d561-4b38-82c3-5e76020ad350",
+            "content": "Patient David Christopher Thompson's personal information: Full name David Christopher Thompson, date of birth August 9th, 1979. Home address: 4521 Pine Valley Road, Denver, Colorado, 80203. Cell phone: 303-555-7621. Email: dthompson79@email.com. He is married to Emily Thompson, who is his emergency contact (same address, cell 303-555-7622). He works for Meridian Software Solutions.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.076758",
+            "updated_at": "2026-09-26T20:57:18.076758",
+            "tags": [
+              "personal-info",
+              "contact",
+              "patient"
+            ]
+          },
+          {
+            "note_id": "ef1c1032-f69c-4aac-ac50-cf00ddc6b674",
+            "content": "David Thompson's insurance: Blue Cross Blue Shield through his employer (Meridian Software Solutions). Member ID: BCB447829563. Group number: 78845-001. He is the primary insurance holder and has no secondary insurance.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.080720",
+            "updated_at": "2026-09-26T20:57:18.080720",
+            "tags": [
+              "insurance"
+            ]
+          },
+          {
+            "note_id": "a55145ec-9661-48fb-9219-1be0e0641f01",
+            "content": "David Thompson's current medications: Lisinopril 10 mg once daily (for high blood pressure), Atorvastatin 20 mg at night (for cholesterol), Omeprazole 20 mg once in the morning (for acid reflux, started about a month ago), plus a daily multivitamin and Vitamin D 2000 units. He will need refills soon (roughly two weeks' worth left as of the appointment).",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.085281",
+            "updated_at": "2026-09-26T20:57:18.085281",
+            "tags": [
+              "medications",
+              "medical"
+            ]
+          },
+          {
+            "note_id": "07dc62d7-4ed7-4270-b71e-03a7d58541d9",
+            "content": "David Thompson's allergies: allergic to penicillin (breaks out in hives), seasonal allergies (mainly tree pollen in spring), and lactose intolerant.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.090279",
+            "updated_at": "2026-09-26T20:57:18.090279",
+            "tags": [
+              "allergies",
+              "medical"
+            ]
+          },
+          {
+            "note_id": "a19a03f3-33da-4e88-acdc-d5ba147503e5",
+            "content": "David Thompson's medical conditions and history: High blood pressure diagnosed about 3 years ago (on medication). High cholesterol (on atorvastatin). Acid reflux. Lower back pain for about 6 weeks (worse when sitting long periods, rated 4-5/10, occasionally spikes to 7; managed with ibuprofen and heating pads). Previous surgeries: appendix removed in 2010 and ACL repair on left knee in 2018 (both without complications). Hospitalized for pneumonia in 2021 for two days. Trouble falling asleep sometimes. Height 5'11\", weight 195 lbs (gained about 10 lbs in the past year).",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.094192",
+            "updated_at": "2026-09-26T20:57:18.094192",
+            "tags": [
+              "medical-history",
+              "conditions",
+              "vitals"
+            ]
+          },
+          {
+            "note_id": "b2e250b7-eb6b-454d-949c-880340e8355c",
+            "content": "David Thompson's previous primary care physician was Dr. Sarah Mitchell at Denver General, whom he saw for about five years; she is retiring. Medical records need to be requested from her office. His last physical exam and blood work were about 14 months ago.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.098210",
+            "updated_at": "2026-09-26T20:57:18.098210",
+            "tags": [
+              "previous-care",
+              "medical"
+            ]
+          },
+          {
+            "note_id": "39e3bb91-cb25-45fe-bd46-de1280680169",
+            "content": "David Thompson's family medical history: Mother is 72 and living (has arthritis and high cholesterol). Father passed away five years ago from a heart attack at age 68 (also had diabetes and high blood pressure). One sister, age 45, generally healthy but recently diagnosed with thyroid issues. Maternal grandmother had breast cancer. Paternal grandfather had prostate cancer.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.101290",
+            "updated_at": "2026-09-26T20:57:18.101290",
+            "tags": [
+              "family-history",
+              "medical"
+            ]
+          },
+          {
+            "note_id": "4c46e99f-3593-42b8-9d20-feea860d1ae2",
+            "content": "David Thompson's lifestyle: Non-smoker (never used tobacco). Drinks a glass or two of wine on weekends (nothing excessive). No recreational drug use. Exercises at the gym about three times a week (mostly cardio and light weights), though back pain has limited him lately. His wife reports he snores sometimes, but no observed breathing issues during sleep.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.104271",
+            "updated_at": "2026-09-26T20:57:18.104271",
+            "tags": [
+              "lifestyle",
+              "medical"
+            ]
+          },
+          {
+            "note_id": "8f3a3aef-973f-4e6b-9c90-b182cecb9254",
+            "content": "David Thompson's immunizations: Fully COVID vaccinated with two boosters (last one in September). Flu shot in October. Tetanus booster about two years ago (after stepping on a nail).",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.106371",
+            "updated_at": "2026-09-26T20:57:18.106371",
+            "tags": [
+              "immunizations",
+              "medical"
+            ]
+          },
+          {
+            "note_id": "657dd1c9-1141-4a6a-aa3e-efd29e89f04b",
+            "content": "David Thompson's upcoming appointment: New patient visit with primary care doctor Dr. Robert Chen (he had no gender preference; chose Dr. Chen for earlier availability). Scheduled for Thursday, November 21st at 2:30 PM, estimated 45 minutes for a comprehensive exam. Confirmation number MV-789234. Location: Mountain View Medical Center, Medical Arts Building, 750 Broadway, Suite 200, Denver (two blocks south of the main Denver library, attached parking garage with validation). He should arrive 15 minutes early, fast for 12 hours before (nothing but water after 2:30 AM), and continue taking his lisinopril/morning medications with water that day. He requested text message appointment reminders.",
+            "session_id": "session-6b6d7c95",
+            "created_at": "2026-09-26T20:57:18.109371",
+            "updated_at": "2026-09-26T20:57:18.109371",
+            "tags": [
+              "appointment",
+              "scheduling"
+            ]
+          }
+        ]
+      },
+      "response": "David, here are the appointment details from your records:\n\n- **Doctor:** Dr. Robert Chen — primary care, **new patient visit**\n- **Date/time:** **Thursday, November 21st at 2:30 PM**  \n- **Estimated length:** 45 minutes for a comprehensive exam\n- **Confirmation number:** **MV-789234**\n- **Location:** Mountain View Medical Center, Medical Arts Building, 750 Broadway, Suite 200, Denver  \n  — two blocks south of the main Denver library; attached parking garage with validation\n\nA few prep reminders for that day:\n- Arrive **15 minutes early**\n- Fast for **12 hours before** the appointment — nothing but water after **2:30 AM**\n- Continue taking your **lisinopril/morning medications** with water that day\n- You requested **text message appointment reminders**\n\nNote: this is with **Dr. Robert Chen**, not Dr. Sarah Mitchell — she was your previous PCP and is retiring. I can’t directly contact the clinic to confirm, but you can use your confirmation number **MV-789234** when you call or message them.",
+      "reward": 1.0,
+      "passed": true,
+      "reasoning": "The response fully and precisely recalls the appointment scheduled for Thursday, November 21st at 2:30 PM with Dr. Robert Chen, includes the confirmation number MV-789234, and adds accurate supporting details and prep reminders. It correctly avoids confusing Dr. Chen with Dr. Wang or Dr. Mitchell. No hallucinations detected.",
+      "required_info_found": {
+        "Appointment date (Thursday, November 21st)": 1.0,
+        "Appointment time (2:30 PM)": 1.0,
+        "Physician name (Dr. Robert Chen)": 1.0,
+        "Confirmation number (MV-789234)": 1.0,
+        "Arrive 15 minutes early": 1.0,
+        "Fast 12 hours before (nothing but water after 2:30 AM)": 1.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "Every stated name, number, date, and detail matches the source exactly: Dr. Robert Chen, Thursday November 21st at 2:30 PM, 45-minute comprehensive exam, confirmation number MV-789234, Medical Arts Building 750 Broadway Suite 200, two blocks south of the main library, attached garage with validation, 15-minute early arrival, 12-hour fast with water only after 2:30 AM, lisinopril continuation, and text reminders. No digit, date, or person is altered or invented."
+        },
+        "recall": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The response answers the direct question (day/time and doctor) and includes all evaluation-criteria details: correct date/time, correct physician, and the confirmation number MV-789234, plus supporting prep facts (45-min length, fasting, early arrival). Nothing required is missing."
+        },
+        "reasoning": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The agent correctly resolves the potential ambiguity between physicians, explicitly distinguishing the scheduled Dr. Robert Chen from the previous PCP Dr. Sarah Mitchell, and avoids conflating with Dr. Lisa Wang (the unselected alternative). The 'new patient visit' framing and fasting rationale link back to intake context accurately."
+        },
+        "proactivity": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "Adds useful, safe next-step help: prep reminders (early arrival, fasting window, medication continuation, text reminders) and honesty that it cannot contact the clinic while offering the confirmation number as a means to verify. No irrelevant or invented advice."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "All material factual claims in the agent response are directly supported by the authoritative conversation source. No contradictions or unsupported specifics were found."
+      }
+    },
+    "json_cards": {
+      "mode": "json_cards",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 28
+      },
+      "memory_snapshot": {
+        "type": "json_cards",
+        "items": {
+          "personal": {
+            "identity": {
+              "full_name": {
+                "value": "David Christopher Thompson",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.612143"
+              },
+              "date_of_birth": {
+                "value": "August 9, 1979",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.614673"
+              }
+            },
+            "contact": {
+              "address": {
+                "value": "4521 Pine Valley Road, Denver, Colorado, 80203",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.617679"
+              },
+              "cell_phone": {
+                "value": "303-555-7621",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.620679"
+              },
+              "email": {
+                "value": "dthompson79@email.com",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.624199"
+              }
+            },
+            "lifestyle": {
+              "habits": {
+                "value": "Never smoked; alcohol 1-2 glasses of wine on weekends; no recreational drugs; exercises at gym ~3x/week (cardio and light weights) though limited lately by back pain",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.687271"
+              }
+            }
+          },
+          "work": {
+            "employment": {
+              "employer": {
+                "value": "Meridian Software Solutions",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.626720"
+              }
+            }
+          },
+          "family": {
+            "spouse": {
+              "wife": {
+                "value": {
+                  "name": "Emily Thompson",
+                  "cell": "303-555-7622",
+                  "note": "Emergency contact; same address as David; says he snores sometimes"
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.628723"
+              }
+            },
+            "parents": {
+              "mother": {
+                "value": {
+                  "age": 72,
+                  "conditions": [
+                    "arthritis",
+                    "high cholesterol"
+                  ],
+                  "status": "living"
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.631723"
+              },
+              "father": {
+                "value": {
+                  "status": "deceased ~5 years ago",
+                  "cause": "heart attack at age 68",
+                  "conditions": [
+                    "diabetes",
+                    "high blood pressure"
+                  ]
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.634230"
+              }
+            },
+            "siblings": {
+              "sister": {
+                "value": {
+                  "age": 45,
+                  "note": "generally healthy but recently diagnosed with thyroid issues"
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.636242"
+              }
+            },
+            "medical_history": {
+              "cancer": {
+                "value": "Maternal grandmother had breast cancer; paternal grandfather had prostate cancer",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.638243"
+              }
+            }
+          },
+          "insurance": {
+            "primary": {
+              "plan": {
+                "value": {
+                  "provider": "Blue Cross Blue Shield",
+                  "source": "employer (Meridian Software Solutions)",
+                  "member_id": "BCB447829563",
+                  "group_number": "78845-001",
+                  "policy_holder": "self (primary)",
+                  "secondary_insurance": "none"
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.641241"
+              }
+            }
+          },
+          "medical": {
+            "provider": {
+              "previous_pcp": {
+                "value": "Dr. Sarah Mitchell at Denver General; patient of ~5 years; she is retiring; records to be requested",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.644755"
+              }
+            },
+            "conditions": {
+              "high_blood_pressure": {
+                "value": "Diagnosed ~3 years ago; on medication (lisinopril)",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.647760"
+              },
+              "back_pain": {
+                "value": "Lower back pain for ~6 weeks; worse when sitting long periods; rated 4-5/10, spikes to 7; managed with ibuprofen and heating pads; limits gym activity",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.650757"
+              }
+            },
+            "medications": {
+              "lisinopril": {
+                "value": "10 mg once daily (for high blood pressure); never skip",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.652758"
+              },
+              "atorvastatin": {
+                "value": "20 mg at night (for cholesterol)",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.656303"
+              },
+              "omeprazole": {
+                "value": "20 mg once in the morning (for acid reflux); started ~1 month ago",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.658307"
+              },
+              "supplements": {
+                "value": "Daily multivitamin and vitamin D 2000 IU",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.661306"
+              }
+            },
+            "allergies": {
+              "medication": {
+                "value": "Penicillin - causes hives",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.665997"
+              },
+              "other": {
+                "value": "Seasonal allergies (tree pollen, mainly spring); lactose intolerant",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.668001"
+              }
+            },
+            "history": {
+              "surgeries": {
+                "value": "Appendectomy in 2010; ACL repair on left knee in 2018; both without complications",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.670999"
+              },
+              "hospitalizations": {
+                "value": "Hospitalized for pneumonia in 2021 (2 days)",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.674507"
+              },
+              "screenings": {
+                "value": "Last physical ~14 months ago with Dr. Mitchell (blood work same time); last eye exam ~2 years ago; dental visit last month; occasional trouble falling asleep",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.681513"
+              },
+              "immunizations": {
+                "value": "COVID-19 fully vaccinated with two boosters (last September); flu shot in October; tetanus booster ~2 years ago (after stepping on a nail)",
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.684533"
+              }
+            },
+            "vitals": {
+              "body": {
+                "value": {
+                  "height": "5 feet 11 inches",
+                  "weight": "195 lbs",
+                  "note": "gained ~10 lbs over the past year"
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.677511"
+              }
+            },
+            "appointment": {
+              "upcoming": {
+                "value": {
+                  "date": "Thursday, November 21st at 2:30 PM",
+                  "doctor": "Dr. Robert Chen (primary care)",
+                  "location": "Medical Arts Building, 750 Broadway, Suite 200, Denver (2 blocks south of main library)",
+                  "confirmation_number": "MV-789234",
+                  "instructions": "New patient - arrive 15 min early; fast 12 hours (nothing but water after 2:30 AM); take morning meds including lisinopril with water; bring insurance card, photo ID, medication list, and records from Dr. Mitchell; plan for ~45 min comprehensive exam; reminder via text",
+                  "note": "Needs medication refills (~2 weeks of meds left); blood work likely to be ordered"
+                },
+                "source": "session-a8cf4ee7",
+                "updated_at": "2026-09-26T20:57:44.690269"
+              }
+            }
+          }
+        }
+      },
+      "response": "According to your saved appointment details:\n\n- **Date & time:** Thursday, November 21st at **2:30 PM**  \n- **Doctor:** **Dr. Robert Chen** — primary care  \n- **Location:** Medical Arts Building, 750 Broadway, Suite 200, Denver  \n- **Confirmation #:** MV-789234  \n\nA few prep reminders from your record:\n- You’re a **new patient**, so arrive **15 minutes early**.\n- **Fast for 12 hours** — water only after 2:30 AM.\n- Take your morning meds, including **lisinopril**, with water.\n- Bring your **insurance card, photo ID, medication list**, and records from Dr. Mitchell.\n- Plan for a **~45-minute comprehensive exam**; you should get a text reminder.\n\nOne note: your record lists the day as **Thursday**, but no year is attached. If this is for **November 21, 2026**, that date actually falls on a **Saturday**, so it may be worth double-checking the day/year when you confirm with the office.",
+      "reward": 1.0,
+      "passed": true,
+      "reasoning": "The agent accurately retrieves the appointment (Thursday, November 21st at 2:30 PM with Dr. Robert Chen), includes the confirmation number MV-789234, and correctly avoids confusing Dr. Chen with the unselected Dr. Wang. It also adds appropriate prep reminders drawn from the intake call. No hallucination is present; the year-verification aside is factually correct and safely framed.",
+      "required_info_found": {
+        "Appointment date and time (Thursday, November 21st, 2:30 PM)": 1.0,
+        "Physician name (Dr. Robert Chen)": 1.0,
+        "Confirmation number (MV-789234)": 1.0,
+        "Location (Medical Arts Building, 750 Broadway, Suite 200, Denver)": 1.0,
+        "Arrive 15 minutes early / 12-hour fast prep": 1.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "All stated names, numbers, and details match the source exactly: Thursday, November 21st at 2:30 PM, Dr. Robert Chen, Medical Arts Building, 750 Broadway, Suite 200, Denver, and confirmation # MV-789234. No digit, date, or person is wrong, and Dr. Chen is not confused with Dr. Wang."
+        },
+        "recall": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The response supplies the core required facts (date, time, physician) plus the confirmation number and multiple relevant prep details (arrive 15 min early, 12-hour fast, take lisinopril, bring documents, ~45-min exam, text reminder), all present in the source."
+        },
+        "reasoning": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The agent correctly selects Dr. Chen (the chosen option) over Dr. Wang (the unselected alternative) and links the appointment with the intake context. Its temporal note about the missing year is handled correctly and conditionally, and the arithmetic (Nov 21, 2026 = Saturday) is accurate; no ownership or conflict errors occur."
+        },
+        "proactivity": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "Provides useful, safe next-step reminders directly tied to source facts: arrive 15 minutes early as a new patient, 12-hour fasting (water only after 2:30 AM), continue lisinopril with water, bring insurance card/photo ID/medication list/Dr. Mitchell records, expect a text reminder, and plan for a ~45-minute exam. No invented or irrelevant advice."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "Every remembered fact (date, time, physician, location, confirmation number, prep instructions) is directly supported by the source. The added note about November 21, 2026 falling on a Saturday is accurate and explicitly framed as a conditional/verification suggestion rather than a remembered fact about the record, so it is not a material unsupported claim."
+      }
+    },
+    "advanced_json_cards": {
+      "mode": "advanced_json_cards",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 14
+      },
+      "memory_snapshot": {
+        "type": "advanced_json_cards",
+        "items": {
+          "personal": {
+            "demographics_primary": {
+              "backstory": "Collected during new patient registration at Mountain View Medical Center when scheduling a primary care appointment",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "primary account holder / patient",
+              "full_name": "David Christopher Thompson",
+              "date_of_birth": "1979-08-09",
+              "age": 45,
+              "height": "5 feet 11 inches",
+              "weight": "195 lbs (gained ~10 lbs over past year)",
+              "gender": "male",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.827623",
+                "updated_at": "2026-09-26T20:58:20.827623",
+                "source": "session-f00bff52"
+              }
+            },
+            "contact_info_primary": {
+              "backstory": "Provided during new patient registration for appointment reminders and patient portal access",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "primary account holder",
+              "address": "4521 Pine Valley Road, Denver, Colorado, 80203",
+              "cell_phone": "303-555-7621",
+              "email": "dthompson79@email.com",
+              "preferred_contact": "text message for appointment reminders",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.832552",
+                "updated_at": "2026-09-26T20:58:20.832552",
+                "source": "session-f00bff52"
+              }
+            },
+            "lifestyle_primary": {
+              "backstory": "Lifestyle and habits gathered during new patient intake",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "tobacco": "Never smoked / no tobacco use",
+              "alcohol": "Occasional - a glass or two of wine on weekends",
+              "recreational_drugs": "None",
+              "exercise": "Gym ~3x/week (cardio and light weights), recently limited by back pain",
+              "sleep": "Occasional trouble falling asleep, especially when back pain is bad; wife reports he sometimes snores (no observed breathing issues)",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.860170",
+                "updated_at": "2026-09-26T20:58:20.860170",
+                "source": "session-f00bff52"
+              }
+            },
+            "emergency_contact_wife": {
+              "backstory": "Provided as emergency contact during new patient registration",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "Emily Thompson (wife)",
+              "relationship": "spouse / emergency contact",
+              "name": "Emily Thompson",
+              "cell_phone": "303-555-7622",
+              "address": "4521 Pine Valley Road, Denver, Colorado, 80203 (same as patient)",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.869253",
+                "updated_at": "2026-09-26T20:58:20.869253",
+                "source": "session-f00bff52"
+              }
+            }
+          },
+          "employment": {
+            "employment_primary": {
+              "backstory": "Provided when discussing insurance coverage through employer",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "primary account holder",
+              "employer": "Meridian Software Solutions",
+              "insurance_source": "employer-sponsored",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.838160",
+                "updated_at": "2026-09-26T20:58:20.838160",
+                "source": "session-f00bff52"
+              }
+            }
+          },
+          "financial": {
+            "insurance_primary": {
+              "backstory": "Provided during new patient registration for billing purposes",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "primary account holder / policyholder",
+              "insurance_provider": "Blue Cross Blue Shield",
+              "member_id": "BCB447829563",
+              "group_number": "78845-001",
+              "primary_holder": true,
+              "secondary_insurance": "none",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.841217",
+                "updated_at": "2026-09-26T20:58:20.841217",
+                "source": "session-f00bff52"
+              }
+            }
+          },
+          "medical": {
+            "appointment_primary_care": {
+              "backstory": "Scheduled as a new patient at Mountain View Medical Center for primary care",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "provider": "Dr. Robert Chen",
+              "specialty": "Primary Care",
+              "facility": "Mountain View Medical Center",
+              "location": "Medical Arts Building, 750 Broadway, Suite 200, Denver (2 blocks south of main library, attached parking garage with validation)",
+              "appointment_date": "2024-11-21",
+              "appointment_time": "2:30 PM",
+              "confirmation_number": "MV-789234",
+              "duration": "approx 45 minutes (comprehensive new patient exam)",
+              "prep_instructions": "Fast 12 hours before (nothing but water after 2:30 AM); continue morning medications including lisinopril with water; arrive 15 minutes early",
+              "bring": "insurance card, photo ID, medication list with dosages, medical records from Dr. Mitchell",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.844279",
+                "updated_at": "2026-09-26T20:58:20.844279",
+                "source": "session-f00bff52"
+              }
+            },
+            "medical_conditions_primary": {
+              "backstory": "Medical history gathered during new patient intake",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "conditions": [
+                "High blood pressure (hypertension) - diagnosed ~3 years ago, on medication",
+                "High cholesterol - on medication",
+                "Acid reflux (GERD) - started treatment ~1 month ago",
+                "Lower back pain - ~6 weeks duration, worse when sitting long periods, pain 4-5/10 with spikes to 7/10"
+              ],
+              "notes": "Back pain has recently limited gym/exercise routine. Treats back pain with ibuprofen and heating pads.",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.846643",
+                "updated_at": "2026-09-26T20:58:20.846643",
+                "source": "session-f00bff52"
+              }
+            },
+            "medications_primary": {
+              "backstory": "Medication list gathered during new patient intake; patient has ~2 weeks supply remaining and will need refills at visit",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "prescriptions": [
+                {
+                  "name": "Lisinopril",
+                  "dose": "10 mg",
+                  "frequency": "once daily",
+                  "purpose": "high blood pressure"
+                },
+                {
+                  "name": "Atorvastatin",
+                  "dose": "20 mg",
+                  "frequency": "at night",
+                  "purpose": "cholesterol"
+                },
+                {
+                  "name": "Omeprazole",
+                  "dose": "20 mg",
+                  "frequency": "once in the morning",
+                  "purpose": "acid reflux (started ~1 month ago)"
+                }
+              ],
+              "supplements": [
+                {
+                  "name": "Daily multivitamin"
+                },
+                {
+                  "name": "Vitamin D",
+                  "dose": "2000 units"
+                }
+              ],
+              "notes": "Refills needed soon (~2 weeks remaining). NEVER skip lisinopril - continue on appointment day.",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.849639",
+                "updated_at": "2026-09-26T20:58:20.849639",
+                "source": "session-f00bff52"
+              }
+            },
+            "allergies_primary": {
+              "backstory": "Allergy history gathered during new patient intake",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "medication_allergies": [
+                {
+                  "allergen": "Penicillin",
+                  "reaction": "hives"
+                }
+              ],
+              "food_allergies": [
+                "Lactose intolerant"
+              ],
+              "environmental_allergies": [
+                "Seasonal allergies - mainly tree pollen in spring"
+              ],
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.852561",
+                "updated_at": "2026-09-26T20:58:20.852561",
+                "source": "session-f00bff52"
+              }
+            },
+            "surgical_and_hospital_history_primary": {
+              "backstory": "Surgical and hospitalization history gathered during new patient intake",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "surgeries": [
+                {
+                  "procedure": "Appendectomy (appendix removal)",
+                  "year": 2010,
+                  "complications": "none"
+                },
+                {
+                  "procedure": "Knee surgery - ACL repair, left knee",
+                  "year": 2018,
+                  "complications": "none"
+                }
+              ],
+              "hospitalizations": [
+                {
+                  "reason": "Pneumonia",
+                  "year": 2021,
+                  "duration": "2 days"
+                }
+              ],
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.855167",
+                "updated_at": "2026-09-26T20:58:20.855167",
+                "source": "session-f00bff52"
+              }
+            },
+            "family_history_primary": {
+              "backstory": "Family medical history gathered during new patient intake",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "father": {
+                "status": "deceased ~5 years ago (age 68) from heart attack",
+                "conditions": [
+                  "diabetes",
+                  "high blood pressure"
+                ]
+              },
+              "mother": {
+                "status": "living, age 72",
+                "conditions": [
+                  "arthritis",
+                  "high cholesterol"
+                ]
+              },
+              "sister": {
+                "status": "living, age 45",
+                "conditions": [
+                  "recently diagnosed with thyroid issues"
+                ]
+              },
+              "maternal_grandmother": {
+                "condition": "breast cancer"
+              },
+              "paternal_grandfather": {
+                "condition": "prostate cancer"
+              },
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.858166",
+                "updated_at": "2026-09-26T20:58:20.858166",
+                "source": "session-f00bff52"
+              }
+            },
+            "immunizations_and_screenings_primary": {
+              "backstory": "Immunization and screening history gathered during new patient intake",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "covid_vaccination": "Fully vaccinated with 2 boosters (last booster September)",
+              "flu_shot": "Received in October",
+              "tetanus_booster": "~2 years ago (after stepping on a nail)",
+              "last_physical_exam": "~14 months ago (with Dr. Mitchell)",
+              "last_blood_work": "~14 months ago (at physical); Dr. Chen likely to order fasting glucose and lipid panel",
+              "last_eye_exam": "~2 years ago (vision fine)",
+              "last_dental_exam": "Last month",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.863279",
+                "updated_at": "2026-09-26T20:58:20.863279",
+                "source": "session-f00bff52"
+              }
+            },
+            "previous_provider_primary": {
+              "backstory": "Patient is transferring care because his longtime primary care physician is retiring",
+              "date_created": "2024-11-14 10:00:00",
+              "person": "David Christopher Thompson (primary)",
+              "relationship": "patient",
+              "previous_provider": "Dr. Sarah Mitchell",
+              "previous_facility": "Denver General",
+              "duration_of_care": "~5 years",
+              "reason_for_change": "Dr. Mitchell is retiring",
+              "action_needed": "Mountain View will request medical records from Dr. Mitchell's office",
+              "_metadata": {
+                "created_at": "2026-09-26T20:58:20.866235",
+                "updated_at": "2026-09-26T20:58:20.866235",
+                "source": "session-f00bff52"
+              }
+            }
+          }
+        }
+      },
+      "response": "Your upcoming appointment is scheduled for:\n\n- **Day/Date:** Thursday, November 21, 2024  \n- **Time:** 2:30 PM  \n- **Doctor:** Dr. Robert Chen — Primary Care  \n- **Facility:** Mountain View Medical Center  \n- **Confirmation #:** MV-789234  \n\nIt’s a comprehensive new patient exam, about 45 minutes long. The location is the Medical Arts Building, 750 Broadway, Suite 200, Denver.\n\nA few reminders from your records: fast for 12 hours before — nothing but water after 2:30 AM — continue your morning medications, including lisinopril, with water, and arrive 15 minutes early.",
+      "reward": 1.0,
+      "passed": true,
+      "reasoning": "The agent precisely and completely answered the question: appointment on Thursday, November 21, 2024 at 2:30 PM with Dr. Robert Chen, correctly avoiding confusion with the unselected option Dr. Wang. It also included the confirmation number MV-789234 as an ideal extra, plus accurate supporting details (facility, location, duration) and grounded reminders (fasting, medication continuation, early arrival). No hallucinations detected.",
+      "required_info_found": {
+        "appointment date (Thursday, November 21, 2024)": 1.0,
+        "appointment time (2:30 PM)": 1.0,
+        "physician name (Dr. Robert Chen)": 1.0,
+        "confirmation number (MV-789234)": 1.0,
+        "reminder to arrive 15 minutes early": 1.0,
+        "12-hour fasting requirement": 1.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "All retrieved names, numbers, dates, and locations are exact and match the source without any digit/date/person error. The date is given as Thursday, November 21, 2024 (conversation is dated 2024-11-12 and the agent's assistant stated 'next Thursday, November 21st'), time 2:30 PM, doctor Dr. Robert Chen (source offered 'Dr. Robert Chen'), confirmation MV-789234, and address 750 Broadway, Suite 200, Denver all match verbatim."
+        },
+        "recall": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The response answers the direct question (day/time and doctor) and additionally supplies the confirmation number the criteria mark as desirable, plus facility, visit length, location, and pre-visit reminders. No required element is missing."
+        },
+        "reasoning": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The agent correctly resolved the two-doctor ambiguity, selecting Dr. Chen (the chosen option) and not conflating him with Dr. Wang (the unselected alternative). It also correctly tied the reminders (fasting after 2:30 AM, continue lisinopril, arrive 15 minutes early) to this specific patient's visit."
+        },
+        "proactivity": {
+          "grade": "excellent",
+          "score": 4,
+          "reasoning": "The agent adds safe, relevant next-step reminders drawn from the source: the 12-hour fast (nothing but water after 2:30 AM), continuing medications including lisinopril, and arriving 15 minutes early as a new patient. These are useful and grounded, not invented."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "Every material factual claim in the answer (date, time, physician, facility, confirmation number, visit length, location, and pre-visit instructions) is directly supported by the authoritative conversation. The year 2024 is a correct inference from the conversation timestamp (2024-11-12) and the fact that Nov 21, 2024 is a Thursday, matching the source's 'Thursday, November 21st'. No contradictions or unsupported specifics found."
+      }
+    }
+  },
+  "user_question": "I need to confirm my upcoming doctor's appointment. What day and time was it scheduled for, and which doctor am I seeing?",
+  "expected_behavior": "The agent should clearly state the appointment is on Thursday, November 21st at 2:30 PM with Dr. Robert Chen, possibly mentioning the confirmation number MV-789234",
+  "title": "Healthcare Provider - Medical History and Appointment Scheduling"
+}

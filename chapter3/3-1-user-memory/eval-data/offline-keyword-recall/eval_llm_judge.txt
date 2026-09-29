@@ -1,0 +1,24 @@
+================================================================================
+MEMORY SYSTEM COMPARISON REPORT
+Metric: llm-judge (score range 0.000-1.000)
+================================================================================
+
+Layer                                 full_context        json_cards      simple_notes         no_memory
+--------------------------------------------------------------------------------------------------------
+Layer 1 · Basic Recall                 0.958 (n=4)       0.896 (n=4)       0.562 (n=4)       0.000 (n=4)
+Layer 2 · Disambiguation               0.417 (n=2)       0.708 (n=2)       0.083 (n=2)       0.000 (n=2)
+Layer 3 · Proactive Synthesis          0.375 (n=2)       0.375 (n=2)       0.042 (n=2)       0.000 (n=2)
+--------------------------------------------------------------------------------------------------------
+Overall                                      0.677             0.719             0.312             0.000
+
+Per-test-case scores
+--------------------------------------------------------------------------------------------------------
+Test Case                             full_context        json_cards      simple_notes         no_memory
+layer1_01_bank_account                       1.000             1.000             0.750             0.000
+layer1_02_insurance_claim                    0.917             0.833             0.417             0.000
+layer1_03_medical_appointment                1.000             0.833             0.583             0.000
+layer1_04_airline_booking                    0.917             0.917             0.500             0.000
+layer2_01_multiple_vehicles                  0.833             0.917             0.167             0.000
+layer2_03_multiple_credit_cards              0.000             0.500             0.000             0.000
+layer3_01_travel_coordination                0.750             0.583             0.000             0.000
+layer3_04_warranty_coordination              0.000             0.167             0.083             0.000

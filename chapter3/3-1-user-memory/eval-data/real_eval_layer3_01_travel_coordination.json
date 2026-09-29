@@ -1,0 +1,858 @@
+{
+  "modes": {
+    "notes": {
+      "mode": "notes",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 15
+      },
+      "memory_snapshot": {
+        "type": "notes",
+        "items": [
+          {
+            "note_id": "28fb923e-6167-4432-a77a-c2f731bfbbd6",
+            "content": "User's full name is Jessica Marie Martinez. Date of birth: March 8, 1985.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:47.086093",
+            "updated_at": "2026-09-26T21:05:51.771023",
+            "tags": [
+              "personal",
+              "identity"
+            ]
+          },
+          {
+            "note_id": "26d202d3-aadf-48ae-9b16-e33c26c45ff9",
+            "content": "Jessica's US passport expires on February 18, 2025. It was issued in 2015 and is an ePassport with a chip.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:47.090781",
+            "updated_at": "2026-09-26T21:05:47.090781",
+            "tags": [
+              "passport",
+              "travel"
+            ]
+          },
+          {
+            "note_id": "42bb0c60-8223-4fba-a568-962a02967444",
+            "content": "Jessica's work trip to Tokyo (business conference) is confirmed: LAX to Tokyo Haneda, departing January 15 and returning January 22, 2025.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:47.094967",
+            "updated_at": "2026-09-26T21:05:51.780063",
+            "tags": [
+              "travel",
+              "work"
+            ]
+          },
+          {
+            "note_id": "831e3263-4a66-42a9-ab7e-71e010fe90af",
+            "content": "Jessica plans to renew her passport by mail using Form DS-82. She intends to get her passport photo taken at CVS and to pay by money order.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:47.098958",
+            "updated_at": "2026-09-26T21:05:47.098958",
+            "tags": [
+              "passport",
+              "preferences"
+            ]
+          },
+          {
+            "note_id": "98c75f4b-ee22-4d9e-a4cc-b57c6c31ddb8",
+            "content": "Jessica works from home most days and lives near Los Angeles, CA (nearest passport agency is in Los Angeles).",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:47.103004",
+            "updated_at": "2026-09-26T21:05:47.103004",
+            "tags": [
+              "personal",
+              "location",
+              "work"
+            ]
+          },
+          {
+            "note_id": "da97aff3-a7f9-4687-bc2c-4d986a87cf01",
+            "content": "Jessica's US passport number is 487223901.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:51.775935",
+            "updated_at": "2026-09-26T21:05:51.775935",
+            "tags": [
+              "passport",
+              "travel"
+            ]
+          },
+          {
+            "note_id": "748fa285-cab6-4ea0-92ec-ff828893b522",
+            "content": "Jessica works at TechCorp (email: jmartinez@techcorp.com). Her company allows business class for flights over 10 hours.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:51.785393",
+            "updated_at": "2026-09-26T21:05:51.785393",
+            "tags": [
+              "work",
+              "contact"
+            ]
+          },
+          {
+            "note_id": "10875bf9-8ac7-4e35-a907-e1924298aa53",
+            "content": "Jessica booked a Delta business class round trip LAX-Tokyo Haneda (flights DL 7 / DL 8, Jan 15-22, 2025) for the conference. Confirmation number: DELTA-JMK892. Total charged $4,890 to her corporate AmEx. She prefers window seats (booked 4A).",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:51.789407",
+            "updated_at": "2026-09-26T21:05:51.789407",
+            "tags": [
+              "travel",
+              "booking"
+            ]
+          },
+          {
+            "note_id": "4e9deb17-4cb1-473d-a251-8783f5a314d4",
+            "content": "Jessica is a Delta SkyMiles member (number 2847569923) and has a TSA PreCheck Known Traveler Number: 9988432.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:51.792402",
+            "updated_at": "2026-09-26T21:05:51.792402",
+            "tags": [
+              "travel",
+              "loyalty"
+            ]
+          },
+          {
+            "note_id": "4a77374f-075b-401a-adbf-fe8b6dd42c37",
+            "content": "Jessica prefers to book hotels separately rather than through airline vacation packages. She already has the Delta app.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:51.798039",
+            "updated_at": "2026-09-26T21:05:51.798039",
+            "tags": [
+              "travel",
+              "preferences"
+            ]
+          },
+          {
+            "note_id": "94c18f23-ca7d-436d-9064-afa28fa1e445",
+            "content": "Jessica has a Chase Sapphire Reserve credit card (last four digits 8823) with a $25,000 credit limit. No foreign transaction fees, chip and PIN capable.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:55.513781",
+            "updated_at": "2026-09-26T21:05:55.513781",
+            "tags": [
+              "finance",
+              "credit-card"
+            ]
+          },
+          {
+            "note_id": "40d981df-43aa-41e0-b735-24cad542b68b",
+            "content": "Jessica has a Chase checking account and a Chase debit card. Her Chase credit card statement closes on the 28th of each month, with payment due around the 22nd of the following month. She set up autopay to pay the full balance.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:55.518902",
+            "updated_at": "2026-09-26T21:05:55.518902",
+            "tags": [
+              "finance",
+              "banking"
+            ]
+          },
+          {
+            "note_id": "73c20d80-76fc-44f5-bac4-aced85826afe",
+            "content": "Jessica earns 3x points on travel and dining (1x on everything else) with her Sapphire Reserve, worth 1.5 cents each via Chase Ultimate Rewards. She has Priority Pass lounge membership (can bring up to 2 guests free) and should download the Priority Pass app for the digital card.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:55.523022",
+            "updated_at": "2026-09-26T21:05:55.523022",
+            "tags": [
+              "finance",
+              "travel",
+              "rewards"
+            ]
+          },
+          {
+            "note_id": "25620ca0-2d96-473d-b14c-21135612ecdb",
+            "content": "Jessica may have additional work-related international travel coming up, possibly to Singapore and London as well as Japan.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:55.527843",
+            "updated_at": "2026-09-26T21:05:55.527843",
+            "tags": [
+              "travel",
+              "work"
+            ]
+          },
+          {
+            "note_id": "0976812f-addf-4411-8cae-6f7004e030f9",
+            "content": "Jessica prefers paying in the local currency (declining dynamic currency conversion) when traveling abroad, and she already has the Chase mobile app.",
+            "session_id": "session-dce6652e",
+            "created_at": "2026-09-26T21:05:55.532704",
+            "updated_at": "2026-09-26T21:05:55.532704",
+            "tags": [
+              "travel",
+              "preferences"
+            ]
+          }
+        ]
+      },
+      "response": "",
+      "reward": 0.0,
+      "passed": false,
+      "reasoning": "The agent returned an empty response. It fails to synthesize the three conversations and misses all required elements: flagging that the passport expires February 18, 2025, less than a month after the January 22 return; recommending immediate expedited renewal; reminding to update Delta booking DELTA-JMK892; mentioning Priority Pass setup; and noting limited travel insurance because the flight was paid with AmEx rather than Chase. This is a complete failure of the evaluated behavior.",
+      "required_info_found": {
+        "Passport expiration Feb 18, 2025, and risk for January Tokyo trip": 0.0,
+        "Urgent recommendation to renew passport immediately via expedited service": 0.0,
+        "Reminder to update Delta booking DELTA-JMK892 with new passport number": 0.0,
+        "Priority Pass app setup for lounge access": 0.0,
+        "Chase Sapphire Reserve no foreign transaction fees confirmation": 0.0,
+        "Travel insurance limitation because flight paid with AmEx rather than Chase Sapphire Reserve": 0.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response is empty. No names, dates, numbers, or relationships are stated, so precision cannot be met."
+        },
+        "recall": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response is empty and does not recall any necessary information, including the critical passport expiration, flight details, credit card travel benefits, or required actions."
+        },
+        "reasoning": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response performs no cross-session synthesis and does not connect the June passport renewal conversation, the November Delta Tokyo booking, or the October credit card conversation."
+        },
+        "proactivity": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent gives no proactive warning about the passport expiration, no recommendation for expedited renewal, and no other next-step travel preparation help."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "No factual claims were made, so there is no hallucination. However, the response also contains no useful information."
+      }
+    },
+    "enhanced_notes": {
+      "mode": "enhanced_notes",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 13
+      },
+      "memory_snapshot": {
+        "type": "notes",
+        "items": [
+          {
+            "note_id": "9120cf6d-f3d5-478d-b889-d47644517216",
+            "content": "Jessica Martinez works from home most days. Her international business travel to Tokyo, Japan is now confirmed — she will attend a conference there, traveling January 15–22. (Earlier this was only tentative, for December or January.)",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:34.033837",
+            "updated_at": "2026-09-26T21:06:44.138705",
+            "tags": [
+              "identity",
+              "work",
+              "travel"
+            ]
+          },
+          {
+            "note_id": "6c40727e-1880-4ec5-b3b6-8894953030e6",
+            "content": "Jessica Marie Martinez holds a US passport (number 487223901) that is an ePassport with a chip, issued in 2015. It expires on February 18th, 2025 — just under a month after her confirmed Tokyo trip return (Jan 22, 2025), which is a very tight buffer. Delta strongly advised her to renew it before travel; airlines sometimes check passport validity more strictly. She can update her passport number with Delta up to 72 hours before departure. She still plans to renew by mail via Form DS-82.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:34.035948",
+            "updated_at": "2026-09-26T21:06:44.142711",
+            "tags": [
+              "passport",
+              "documents"
+            ]
+          },
+          {
+            "note_id": "33078d39-1b54-4ebe-9b36-188f6df08a92",
+            "content": "Jessica Martinez plans to renew her US passport by mail using Form DS-82 (eligible: passport undamaged, issued when 16 or older, issued within last 15 years). For mail renewal she must include: the completed DS-82, current passport, a new photo, and payment by check or money order (payable to \"US Department of State\") — credit cards are only accepted for in-person applications. She plans to get her passport photo at CVS. Expedited processing costs $190 total ($130 renewal fee + $60 expedited). Originally she planned to wait until the Japan trip was confirmed, but the trip is now booked (Jan 15–22, 2025), so renewal timing is more urgent — she should submit well before travel (early October was the recommended deadline to have it by December).",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:34.037936",
+            "updated_at": "2026-09-26T21:06:44.146061",
+            "tags": [
+              "passport",
+              "renewal",
+              "preferences"
+            ]
+          },
+          {
+            "note_id": "1feac4e1-2262-4ba9-9e02-d89e8f085da6",
+            "content": "Details relevant to Jessica Martinez's passport renewal: Expedited mail applications go to National Passport Processing Center, PO Box 90955, Philadelphia, PA 19190-0955. Application status can be tracked online at travel.state.gov. If she needs urgent processing (travel within 14 days), the nearest passport agency to her is in Los Angeles at 11000 Wilshire Blvd, Suite 1000 (appointments mandatory). Passport photos must be 2x2 inches, white background, taken within the last 6 months, with a neutral/natural expression.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:34.039460",
+            "updated_at": "2026-09-26T21:06:34.039460",
+            "tags": [
+              "passport",
+              "renewal",
+              "reference"
+            ]
+          },
+          {
+            "note_id": "896dd732-8460-4cad-9d4f-dda252a1310e",
+            "content": "Jessica Martinez's confirmed travel to Japan (Tokyo) for work. Relevant travel facts: US citizens do not need a visa for tourism or business stays up to 90 days in Japan; proof of onward travel (e.g., return ticket) and possibly sufficient funds may be required. No required vaccinations for Japan, but CDC recommendations/routine vaccines should be current; Japan has lifted most COVID restrictions but requirements should be verified closer to travel. Jessica believes she's current on all routine vaccinations. She does not expect any name change and does not travel enough to need the larger 52-page passport book. She is interested in vegetarian/dietary meal options on flights and may pre-select meals closer to the trip.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:34.041470",
+            "updated_at": "2026-09-26T21:06:44.149059",
+            "tags": [
+              "travel",
+              "japan",
+              "health"
+            ]
+          },
+          {
+            "note_id": "22934a02-609e-4b87-bcde-31b3683a2559",
+            "content": "Jessica Marie Martinez's personal details: full legal name (as it appears on her passport) is Jessica Marie Martinez, and her date of birth is March 8th, 1985. She works from home most days. Her work email is jmartinez@techcorp.com. Her company allows business class airfare for flights over 10 hours.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:44.120528",
+            "updated_at": "2026-09-26T21:06:44.120528",
+            "tags": [
+              "identity",
+              "personal",
+              "work"
+            ]
+          },
+          {
+            "note_id": "81ba4377-6bb6-412b-90c4-095e38a56291",
+            "content": "Jessica Martinez has a confirmed business trip to Tokyo, Japan for a conference, booked on Delta (confirmation number DELTA-JMK892). Outbound: DL 7, departs LAX at 11:30 AM on January 15th, arriving Haneda at 4:45 PM on January 16th. Return: DL 8, departs Haneda at 6:00 PM on January 22nd, arriving LAX at 10:15 AM the same day. She booked Business Class (total $4,890), which her company permits for flights over 10 hours (flight is ~11h15m westbound, ~10h15m eastbound). Seat 4A (window) on both legs. Business class is fully refundable if cancelled 24 hours before departure, with no change fees (fare difference may apply). Includes 2 free checked bags up to 70 lbs each, full meal service, complimentary wifi, and Sky Priority check-in/security. Delta uses Terminals 2 and 3 at LAX (international typically Terminal 2). She plans to handle her hotel booking separately.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:44.125596",
+            "updated_at": "2026-09-26T21:06:44.125596",
+            "tags": [
+              "travel",
+              "japan",
+              "flight",
+              "booking"
+            ]
+          },
+          {
+            "note_id": "015f2d5c-7f34-4586-bca4-1e579bb5c182",
+            "content": "Jessica Martinez's travel loyalty and credentials: Delta SkyMiles member number 2847569923 (the Tokyo trip will earn approx. 22,000 miles). She has a TSA PreCheck Known Traveler Number: 9988432. She prefers a window seat and dislikes waiting at airports.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:44.130694",
+            "updated_at": "2026-09-26T21:06:44.130694",
+            "tags": [
+              "travel",
+              "loyalty",
+              "preferences"
+            ]
+          },
+          {
+            "note_id": "e4605eef-7094-4bbb-b4ae-86012bf6f28a",
+            "content": "Jessica Martinez pays for business travel using a corporate American Express card (billing zip code 90210) — e.g., she used it for her Tokyo flight. She also personally holds a Chase Sapphire Reserve (last four 8823, $25,000 limit), which she uses for travel and dining rewards, lounges, and travel insurance. Corporate booking details should be kept on file, though sensitive card credentials should not be stored in full.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:44.134685",
+            "updated_at": "2026-09-26T21:06:49.865478",
+            "tags": [
+              "payment",
+              "work",
+              "travel"
+            ]
+          },
+          {
+            "note_id": "7146d044-a7e0-4dd3-8060-b56edb8e8b0e",
+            "content": "Jessica Martinez has a Chase Sapphire Reserve credit card (last four digits 8823) with a $25,000 credit limit, currently using about $3,200. Benefits: no foreign transaction fees, chip and PIN capable for international use, and no travel notifications required before trips. Her statement closes on the 28th of each month, with payment due ~25 days later (around the 22nd of the following month). She has autopay set to pay the full balance from her Chase checking account. She also has a Chase debit card she can use at ATMs abroad.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:49.843130",
+            "updated_at": "2026-09-26T21:06:49.843130",
+            "tags": [
+              "finance",
+              "credit-card",
+              "travel"
+            ]
+          },
+          {
+            "note_id": "064940f8-5c08-47ad-994e-42cfd0beafe9",
+            "content": "Jessica Martinez's Chase Sapphire Reserve travel benefits (active as long as she pays for the travel with the card): trip cancellation up to $10,000, trip delay reimbursement, lost luggage coverage, and emergency medical; primary rental car coverage (decline the rental company's insurance); Priority Pass membership with 1,300+ lounges worldwide (up to 2 free guests per visit), plus access to Chase Sapphire Lounges (currently Boston, Hong Kong, and New York LaGuardia — not yet LAX). Note: her Tokyo flights are paid with her corporate AmEx, so the airline ticket itself isn't covered by Sapphire travel insurance, but hotels/other expenses paid with the Sapphire would be.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:49.848319",
+            "updated_at": "2026-09-26T21:06:49.848319",
+            "tags": [
+              "finance",
+              "credit-card",
+              "travel",
+              "insurance"
+            ]
+          },
+          {
+            "note_id": "c79459e2-1e08-4260-90a4-cfc9f87836c5",
+            "content": "Jessica Martinez's Chase Sapphire Reserve rewards: earns 3x points on travel and dining worldwide (hotels, airlines, car rentals, trains, taxis, and rideshare like Uber count as travel) and 1x on everything else. Points are worth 1.5 cents each when redeemed through Chase Ultimate Rewards for travel (more when transferred to partners). Transfer partners include United, Southwest, JetBlue, Hyatt, Marriott, IHG, and several international airlines; Delta is not a direct partner but can be booked via Air France/KLM Flying Blue.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:49.853426",
+            "updated_at": "2026-09-26T21:06:49.853426",
+            "tags": [
+              "finance",
+              "rewards",
+              "travel"
+            ]
+          },
+          {
+            "note_id": "76f056f1-27b6-46b8-8ee2-d42cf41d8780",
+            "content": "Jessica Martinez has several potential future work trips in addition to the confirmed Tokyo conference (Jan 15–22, 2025): she mentioned possibly traveling to Japan, Singapore, and London for work. She prefers to pay in local currency abroad and declines dynamic currency conversion (letting Visa do the conversion for better rates). In Japan, foreigner-friendly ATMs that work with Chase cards include 7-Eleven ATMs and Japan Post Bank ATMs.",
+            "session_id": "session-d44c562e",
+            "created_at": "2026-09-26T21:06:49.859956",
+            "updated_at": "2026-09-26T21:06:49.859956",
+            "tags": [
+              "travel",
+              "preferences",
+              "work"
+            ]
+          }
+        ]
+      },
+      "response": "",
+      "reward": 0.0,
+      "passed": false,
+      "reasoning": "The agent gave no response to the user question. It therefore fails to demonstrate any cross-conversation synthesis, does not flag the critical passport expiration risk, does not recommend expedited renewal or updating Delta booking DELTA-JMK892, and does not mention Priority Pass or the AmEx-vs-Chase travel insurance limitation. The empty response prevents satisfying any required behavior.",
+      "required_info_found": {
+        "passport expires February 18, 2025": 0.0,
+        "Tokyo trip is January 15-22": 0.0,
+        "passport expires less than 30 days after January 22 return": 0.0,
+        "urgent/expedited passport renewal recommendation": 0.0,
+        "update Delta booking DELTA-JMK892 with new passport number": 0.0,
+        "Priority Pass app setup for lounge access": 0.0,
+        "Chase Sapphire Reserve has no foreign transaction fees": 0.0,
+        "travel insurance is limited because flight was paid with AmEx, not Chase": 0.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response is empty, so no names, dates, numbers, ownership, or relationships are stated at all. Precision cannot be satisfied when no answer is provided."
+        },
+        "recall": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The response omits every required item: the passport expiration date, the January trip dates, the renewal urgency, the Delta booking confirmation number, the Priority Pass setup, Chase foreign transaction fee status, and the AmEx travel insurance limitation."
+        },
+        "reasoning": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent makes no cross-conversation links and does not resolve the temporal conflict between the January Tokyo trip and the February 18, 2025 passport expiration. It fails to connect the June passport renewal discussion, the November Delta booking, and the October credit-card travel preparations."
+        },
+        "proactivity": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent provides no proactive warning, no urgent next-step recommendation, and no travel-preparation guidance. It fails to flag the critical passport risk or mention actions such as expedited renewal, updating Delta, using Priority Pass, or confirming insurance coverage limitations."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "Because the agent response is empty, it makes no factual claims that could be unsupported or contradicted by the source. No hallucination is detected."
+      }
+    },
+    "json_cards": {
+      "mode": "json_cards",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 18
+      },
+      "memory_snapshot": {
+        "type": "json_cards",
+        "items": {
+          "personal": {
+            "identity": {
+              "name": {
+                "value": "{\"category\": \"personal\", \"subcategory\": \"identity\", \"key\": \"name\", \"value\": \"Jessica Marie Martinez\"}",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.401993"
+              },
+              "passport_number": {
+                "value": "487223901",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:26.883743"
+              },
+              "passport_expiry": {
+                "value": "February 18, 2025",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:26.888265"
+              },
+              "passport_details": {
+                "value": "US ePassport with chip, issued 2015; standard 28-page book",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:26.892356"
+              },
+              "date_of_birth": {
+                "value": "March 8, 1985",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:33.131799"
+              }
+            },
+            "location": {
+              "city": {
+                "value": "Los Angeles area (nearest passport agency: 11000 Wilshire Blvd, Suite 1000)",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:26.897394"
+              },
+              "zip": {
+                "value": "90210",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:33.141586"
+              }
+            },
+            "work_arrangement": {
+              "remote": {
+                "value": "Works from home most days",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:26.901389"
+              }
+            },
+            "passport": {
+              "renewal_plan": {
+                "value": "{\"category\": \"personal\", \"subcategory\": \"passport\", \"key\": \"renewal_plan\", \"value\": \"Tokyo trip is now CONFIRMED (Jan 15-22), so passport renewal is now urgent because passport expires Feb 18, 2025 (cutting it very close). Renew by mail using Form DS-82 (eligible: undamaged, issued at 16+, within 15 years). Considering expedited service (~$190 total). Photo from CVS. Payment via money order payable to 'US Department of State'. She can update the passport number on the Delta booking up to 72 hours before departure.\"}",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.407604"
+              }
+            },
+            "contact": {
+              "email": {
+                "value": "jmartinez@techcorp.com",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:33.136590"
+              }
+            },
+            "travel_preferences": {
+              "airline_loyalty": {
+                "value": "Delta SkyMiles member #2847569923; TSA PreCheck Known Traveler Number 9988432; prefers window seats; has Delta app",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:33.158935"
+              }
+            },
+            "finance": {
+              "credit_card": {
+                "value": "Chase Sapphire Reserve, last 4 digits 8823. No foreign transaction fees, chip and PIN capable. Includes travel insurance (trip cancellation up to $10,000, trip delay, lost luggage, emergency medical) when the trip is paid with the card. Primary rental car coverage. Priority Pass membership (bring up to 2 guests free) plus Chase Sapphire Lounge access (Boston, Hong Kong, NY LaGuardia).",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.416073"
+              },
+              "credit_account": {
+                "value": "Chase Sapphire Reserve credit limit $25,000 (currently ~$3,200 used). Statement closes on the 28th of each month, payment due ~22nd of the following month. Autopay set to pay full balance from Chase checking. Earns 3x points on travel and dining worldwide, 1x else; points worth 1.5 cents via Chase Ultimate Rewards.",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.419071"
+              },
+              "payment_methods": {
+                "value": "Uses corporate AmEx for flights (travel insurance on Sapphire Reserve won't apply to those tickets). Has a Chase debit card for international ATM withdrawals (prefers ATM over cash advances to avoid fees). In Japan, 7-Eleven and Japan Post Bank ATMs work well with Chase cards. Always pays in local currency, declines dynamic currency conversion.",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.422071"
+              }
+            },
+            "preferences": {
+              "travel_habits": {
+                "value": "Dislikes waiting at airports (arrives ~2.5 hours before international flights with TSA PreCheck). Plans to get work done on flights; appreciates lounge access and wifi.",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.424598"
+              }
+            }
+          },
+          "work": {
+            "travel": {
+              "upcoming_trip": {
+                "value": "{\"category\": \"work\", \"subcategory\": \"travel\", \"key\": \"upcoming_trip\", \"value\": \"CONFIRMED business conference in Tokyo, Japan, January 15-22 (Delta booking DELTA-JMK892). US citizens don't need a visa for business/tourism stays up to 90 days. No vaccinations required for Japan. Other work destinations mentioned as possible: Singapore, London.\"}",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:39.412798"
+              },
+              "flight_booking": {
+                "value": "Delta booking for Tokyo conference: DL 7 LAX->Haneda dep Jan 15 11:30 AM arr Jan 16 4:45 PM; DL 8 Haneda->LAX dep Jan 22 6:00 PM arr 10:15 AM same day. Business class, $4,890. Window seat 4A both legs. Confirmation DELTA-JMK892. Fully refundable if cancelled 24h before departure; no change fees. Paid with corporate AmEx.",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:33.152985"
+              }
+            },
+            "employer": {
+              "company": {
+                "value": "TechCorp; company travel policy allows business class for flights over 10 hours",
+                "source": "session-0c07e191",
+                "updated_at": "2026-09-26T21:07:33.146983"
+              }
+            }
+          }
+        }
+      },
+      "response": "",
+      "reward": 0.0,
+      "passed": false,
+      "reasoning": "The agent response is completely empty. It fails all four evaluated dimensions because it contains no information, no cross-conversation synthesis, no critical passport-expiration warning, and no proactive next steps. Since there are no factual claims, the hallucination veto is not triggered, but the response provides no assistance for the user's final Tokyo trip preparation question.",
+      "required_info_found": {
+        "passport expiration date February 18, 2025": 0.0,
+        "Tokyo flight dates January 15-22, 2025": 0.0,
+        "flight confirmation number DELTA-JMK892": 0.0,
+        "passport expires less than one month after return date": 0.0,
+        "recommend immediate expedited passport renewal": 0.0,
+        "update Delta booking with new passport number": 0.0,
+        "Priority Pass app setup for lounge access": 0.0,
+        "Chase Sapphire Reserve has no foreign transaction fees": 0.0,
+        "travel insurance limited because flight was paid with AmEx not Chase": 0.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response is empty. It states no names, numbers, dates, ownership, or relationships, so it cannot meet the precision criterion. The authoritative source contains exact details such as the passport expiration and flight confirmation number, but the agent response includes none of them."
+        },
+        "recall": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response is empty and recalls none of the information required by the evaluation criteria: the passport expiration risk, the January Tokyo flight dates, the Delta confirmation number, the need to renew urgently, updating Delta with a new passport number, Priority Pass setup, and the limited travel insurance due to using AmEx rather than Chase."
+        },
+        "reasoning": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response does not synthesize information across the three conversations or resolve the critical temporal/validity conflict. It fails to connect the June passport renewal discussion with the November Tokyo flight booking and October credit card preparation."
+        },
+        "proactivity": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response provides no warning or next-step help. It does not urgently flag the passport expiration issue, recommend expedited renewal, remind about updating the Delta booking, or mention Priority Pass, foreign transaction fees, or insurance limitations."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "The agent response contains no factual claims, so no material factual claim is absent from or contradicted by the source. Hallucination is not detected."
+      }
+    },
+    "advanced_json_cards": {
+      "mode": "advanced_json_cards",
+      "memory_ops": {
+        "added": 0,
+        "updated": 0,
+        "deleted": 0,
+        "real_items_in_memory": 10
+      },
+      "memory_snapshot": {
+        "type": "advanced_json_cards",
+        "items": {
+          "personal": {
+            "identity_jessica_martinez": {
+              "backstory": "Learned via passport renewal inquiry with USPS and a Delta flight booking; legal name and DOB confirmed when booking the Tokyo flight",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "full_name": "Jessica Martinez",
+              "legal_full_name": "Jessica Marie Martinez",
+              "date_of_birth": "1985-03-08",
+              "location": "Los Angeles area, California",
+              "email": "jmartinez@techcorp.com",
+              "employer": "TechCorp",
+              "work_arrangement": "works from home most days",
+              "notes": "Name has not changed (no marriage certificate or court order needed for passport)",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:17.537408",
+                "updated_at": "2026-09-26T21:08:31.695123",
+                "source": "session-48caa611"
+              }
+            }
+          },
+          "documents": {
+            "passport_jessica_martinez": {
+              "backstory": "User shared passport details during a renewal inquiry with USPS Passport Services",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "passport_number": "487223901",
+              "passport_type": "ePassport with chip (good for international travel)",
+              "issued_year": 2015,
+              "expiration_date": "2025-02-18",
+              "book_size": "standard 28-page book",
+              "eligible_for_mail_renewal": true,
+              "renewal_form": "DS-82",
+              "status": "planning to renew by mail",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:17.541413",
+                "updated_at": "2026-09-26T21:08:17.541413",
+                "source": "session-48caa611"
+              }
+            }
+          },
+          "travel": {
+            "travel_plans_tokyo_japan": {
+              "backstory": "Initially mentioned as a possible work conference; later confirmed and booked as a Delta flight; additional work destinations mentioned during a Chase card call",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "destination": "Tokyo, Japan (Haneda Airport, HND - closest to downtown)",
+              "purpose": "business conference",
+              "status": "CONFIRMED and booked",
+              "departure_date": "January 15 (Delta DL 7, LAX 11:30 AM -> Haneda 4:45 PM next day)",
+              "return_date": "January 22 (Delta DL 8, Haneda 6:00 PM -> LAX 10:15 AM same day)",
+              "cabin_class": "Business Class ($4,890)",
+              "flight_duration": "11h 15m westbound, 10h 15m eastbound",
+              "other_possible_work_destinations": "Singapore, London (work travel)",
+              "notes": "Passport expires Feb 18, 2025 - less than a month after return; strongly recommended to renew first. Can update passport number up to 72 hours before departure. US citizens do not need a visa for stays up to 90 days in Japan. Hotel being booked separately.",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:17.546609",
+                "updated_at": "2026-09-26T21:08:38.880204",
+                "source": "session-48caa611"
+              }
+            },
+            "delta_flight_booking_tokyo": {
+              "backstory": "Booked a round-trip business class flight to Tokyo for a business conference with Delta",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "airline": "Delta",
+              "confirmation_number": "DELTA-JMK892",
+              "route": "LAX -> Haneda (Tokyo) -> LAX",
+              "outbound": "DL 7, departs LAX 11:30 AM Jan 15, arrives Haneda 4:45 PM Jan 16",
+              "return": "DL 8, departs Haneda 6:00 PM Jan 22, arrives LAX 10:15 AM same day",
+              "seat": "4A (window, business class) both directions",
+              "total_charged": "$4,890",
+              "cancellation_policy": "Business class fully refundable if cancelled 24 hours before departure; no change fees (pay fare difference if applicable)",
+              "baggage": "2 free checked bags up to 70 lbs each, plus carry-on and personal item",
+              "terminal": "Delta uses Terminal 2 and 3 at LAX (international typically Terminal 2)",
+              "perks": "Sky Priority check-in/security, complimentary wifi, full meal service (pre-select 30 days before, vegetarian/vegan/gluten-free options), boarding pass on mobile app available 24 hrs before departure",
+              "itinerary_email": "jmartinez@techcorp.com",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:31.704650",
+                "updated_at": "2026-09-26T21:08:31.704650",
+                "source": "session-48caa611"
+              }
+            }
+          },
+          "preferences": {
+            "passport_renewal_preferences": {
+              "backstory": "User discussed renewal logistics and stated her preferences during the inquiry",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "renewal_method": "by mail (Form DS-82)",
+              "payment_method": "money order payable to 'US Department of State' (mail renewals do not accept credit cards)",
+              "photo_plan": "obtain passport photo at CVS",
+              "estimated_cost": "$130 renewal + $60 expedited = $190 (plus postage if mailing)",
+              "mailing_address": "National Passport Processing Center, PO Box 90955, Philadelphia, PA 19190-0955 (for expedited processing)",
+              "status_tracking": "travel.state.gov",
+              "backup_option": "urgent travel appointment at LA passport agency, 11000 Wilshire Blvd, Suite 1000 (mandatory appointment, for travel within 14 days)",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:17.551498",
+                "updated_at": "2026-09-26T21:08:17.551498",
+                "source": "session-48caa611"
+              }
+            },
+            "travel_preferences_jessica": {
+              "backstory": "Stated travel preferences while booking the Tokyo flight",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "seat_preference": "window seat",
+              "cabin_preference": "business class when allowed (company permits business class for flights over 10 hours)",
+              "arrival_preference": "dislikes waiting at airports; arrives ~2.5 hrs early with TSA PreCheck for international flights",
+              "airport_preference": "prefers Haneda over Narita for Tokyo (closer to downtown)",
+              "notes": "Has Delta mobile app; prefers mobile boarding passes",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:31.720045",
+                "updated_at": "2026-09-26T21:08:31.720045",
+                "source": "session-48caa611"
+              }
+            }
+          },
+          "loyalty": {
+            "loyalty_programs_jessica": {
+              "backstory": "Provided frequent flyer and trusted traveler numbers while booking a Delta flight",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "skymiles_number": "2847569923",
+              "known_traveler_number_tsa_precheck": "9988432",
+              "notes": "Tokyo trip expected to earn ~22,000 SkyMiles",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:31.709663",
+                "updated_at": "2026-09-26T21:08:31.709663",
+                "source": "session-48caa611"
+              }
+            }
+          },
+          "financial": {
+            "corporate_amex_jessica": {
+              "backstory": "Used to pay for the Tokyo business-class flight; provided during Delta booking",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "card_type": "Corporate American Express",
+              "card_number": "3782-445589-23001",
+              "expiration": "12/26",
+              "billing_zip": "90210",
+              "notes": "Corporate card used for business travel expenses",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:31.713664",
+                "updated_at": "2026-09-26T21:08:31.713664",
+                "source": "session-48caa611"
+              }
+            },
+            "chase_sapphire_reserve_jessica": {
+              "backstory": "Called Chase Card Services to confirm international usability of her card before business travel",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "card_type": "Chase Sapphire Reserve",
+              "card_last_four": "8823",
+              "credit_limit": "$25,000",
+              "current_usage": "$3,200",
+              "foreign_transaction_fees": "none; chip and PIN capable, works worldwide",
+              "statement_close_date": "28th of each month",
+              "payment_due_date": "~22nd of following month",
+              "autopay": "changed to pay FULL balance automatically from Chase checking",
+              "rewards": "3x points on travel and dining worldwide, 1x on everything else; worth 1.5 cents each via Chase Ultimate Rewards for travel",
+              "transfer_partners": "United, Southwest, JetBlue, Hyatt, Marriott, IHG, Air France/KLM Flying Blue (no direct Delta transfer, but can book Delta via Flying Blue)",
+              "travel_insurance": "trip cancellation up to $10,000, trip delay reimbursement, lost luggage coverage, emergency medical - only if trip paid with this card",
+              "rental_car": "primary rental car coverage when paid with card (decline rental company insurance)",
+              "lounge_access": "Priority Pass membership included (1,300+ lounges, up to 2 free guests per visit); Chase Sapphire Lounges at Boston, Hong Kong, NY LaGuardia (not LAX yet; LAX has Priority Pass options like KAL Lounge)",
+              "notes": "Has the Chase mobile app; card is ready for international use",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:38.873916",
+                "updated_at": "2026-09-26T21:08:38.873916",
+                "source": "session-48caa611"
+              }
+            },
+            "chase_debit_card_jessica": {
+              "backstory": "Discussed ATM cash access abroad during Chase international usage call",
+              "date_created": "2025-06-18 00:00:00",
+              "person": "Jessica Martinez (primary)",
+              "relationship": "primary account holder",
+              "bank": "Chase",
+              "card_type": "debit card",
+              "international_use": "works at any ATM with Visa or Plus logos; Chase partners with international banks to reduce fees",
+              "japan_atms": "7-Eleven ATMs and Japan Post Bank ATMs recommended (foreigner-friendly)",
+              "notes": "Advise using debit card for ATM cash instead of credit card (which would be a costly cash advance)",
+              "_metadata": {
+                "created_at": "2026-09-26T21:08:38.876825",
+                "updated_at": "2026-09-26T21:08:38.876825",
+                "source": "session-48caa611"
+              }
+            }
+          }
+        }
+      },
+      "response": "",
+      "reward": 0.0,
+      "passed": false,
+      "reasoning": "The agent response is empty. It fails to answer the user's question and does not perform any cross-conversation synthesis. Most critically, it misses the passport expiration emergency: the passport expires February 18, 2025, less than 30 days after the January 22 return, which risks denied boarding or entry. It also fails to recommend expedited renewal, remind the user to update Delta booking DELTA-JMK892, mention Priority Pass activation, confirm no foreign transaction fees, or explain that Chase travel insurance likely does not cover the AmEx-paid flight. All rubric dimensions fail because no response was provided.",
+      "required_info_found": {
+        "Passport expiration date February 18, 2025": 0.0,
+        "Tokyo trip dates January 15-22, 2025 / flight DELTA-JMK892": 0.0,
+        "Passport expires less than 30 days after return, creating urgent risk": 0.0,
+        "Recommend immediate expedited passport renewal": 0.0,
+        "Remind to update Delta booking DELTA-JMK892 with new passport number": 0.0,
+        "Mention Priority Pass app activation for lounge access": 0.0,
+        "Confirm Chase Sapphire Reserve has no foreign transaction fees": 0.0,
+        "Note travel insurance limited because flight paid with AmEx not Chase": 0.0
+      },
+      "dimensions": {
+        "precision": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The agent response is empty, so no names, numbers, dates, ownership claims, or relationships are stated. It therefore fails to provide the exact required details such as Jessica Martinez, passport expiration February 18, 2025, flight DELTA-JMK892, or the January 15-22 Tokyo trip dates."
+        },
+        "recall": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The response omits all information necessary to answer the user's question and satisfy the evaluation criteria. It does not mention the passport expiration risk, the Delta booking, renewal steps, updating the airline, Priority Pass, foreign transaction fees, or the AmEx/Chase travel insurance limitation."
+        },
+        "reasoning": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "There is no cross-conversation synthesis or temporal reasoning. The agent does not link the June passport-renewal conversation, the November Tokyo flight booking, and the October credit-card conversation, nor does it resolve that the passport expires less than a month after return."
+        },
+        "proactivity": {
+          "grade": "fail",
+          "score": 1,
+          "reasoning": "The response provides no proactive warning, no urgent recommendation to renew the passport immediately, and no next-step guidance. It also fails to mention lounge access, foreign transaction fees, or limited travel insurance coverage from using the corporate AmEx instead of the Chase Sapphire Reserve."
+        }
+      },
+      "hallucination": {
+        "detected": false,
+        "reasoning": "No factual claims were made because the agent response is empty, so there is nothing fabricated or contradicted. Hallucination is therefore not detected."
+      }
+    }
+  },
+  "user_question": "I'm finalizing my trip to Tokyo in January. Is there anything I need to take care of before I go?",
+  "expected_behavior": "The agent should urgently flag that the passport expires Feb 18, 2025 (less than a month after the Jan 22 return), strongly recommend immediate expedited renewal, remind to update Delta booking DELTA-JMK892 with new passport number, mention Priority Pass setup, and note travel insurance is limited since flight was paid with AmEx not Chase",
+  "title": "International Travel - Proactive Document and Service Coordination"
+}

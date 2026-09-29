@@ -1,0 +1,205 @@
+{
+  "user_id": "real_eval_user",
+  "type": "advanced_json_cards",
+  "updated_at": "2026-09-26T21:08:38.882086",
+  "categories": {
+    "personal": {
+      "identity_jessica_martinez": {
+        "backstory": "Learned via passport renewal inquiry with USPS and a Delta flight booking; legal name and DOB confirmed when booking the Tokyo flight",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "full_name": "Jessica Martinez",
+        "legal_full_name": "Jessica Marie Martinez",
+        "date_of_birth": "1985-03-08",
+        "location": "Los Angeles area, California",
+        "email": "jmartinez@techcorp.com",
+        "employer": "TechCorp",
+        "work_arrangement": "works from home most days",
+        "notes": "Name has not changed (no marriage certificate or court order needed for passport)",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:17.537408",
+          "updated_at": "2026-09-26T21:08:31.695123",
+          "source": "session-48caa611"
+        }
+      }
+    },
+    "documents": {
+      "passport_jessica_martinez": {
+        "backstory": "User shared passport details during a renewal inquiry with USPS Passport Services",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "passport_number": "487223901",
+        "passport_type": "ePassport with chip (good for international travel)",
+        "issued_year": 2015,
+        "expiration_date": "2025-02-18",
+        "book_size": "standard 28-page book",
+        "eligible_for_mail_renewal": true,
+        "renewal_form": "DS-82",
+        "status": "planning to renew by mail",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:17.541413",
+          "updated_at": "2026-09-26T21:08:17.541413",
+          "source": "session-48caa611"
+        }
+      }
+    },
+    "travel": {
+      "travel_plans_tokyo_japan": {
+        "backstory": "Initially mentioned as a possible work conference; later confirmed and booked as a Delta flight; additional work destinations mentioned during a Chase card call",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "destination": "Tokyo, Japan (Haneda Airport, HND - closest to downtown)",
+        "purpose": "business conference",
+        "status": "CONFIRMED and booked",
+        "departure_date": "January 15 (Delta DL 7, LAX 11:30 AM -> Haneda 4:45 PM next day)",
+        "return_date": "January 22 (Delta DL 8, Haneda 6:00 PM -> LAX 10:15 AM same day)",
+        "cabin_class": "Business Class ($4,890)",
+        "flight_duration": "11h 15m westbound, 10h 15m eastbound",
+        "other_possible_work_destinations": "Singapore, London (work travel)",
+        "notes": "Passport expires Feb 18, 2025 - less than a month after return; strongly recommended to renew first. Can update passport number up to 72 hours before departure. US citizens do not need a visa for stays up to 90 days in Japan. Hotel being booked separately.",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:17.546609",
+          "updated_at": "2026-09-26T21:08:38.880204",
+          "source": "session-48caa611"
+        }
+      },
+      "delta_flight_booking_tokyo": {
+        "backstory": "Booked a round-trip business class flight to Tokyo for a business conference with Delta",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "airline": "Delta",
+        "confirmation_number": "DELTA-JMK892",
+        "route": "LAX -> Haneda (Tokyo) -> LAX",
+        "outbound": "DL 7, departs LAX 11:30 AM Jan 15, arrives Haneda 4:45 PM Jan 16",
+        "return": "DL 8, departs Haneda 6:00 PM Jan 22, arrives LAX 10:15 AM same day",
+        "seat": "4A (window, business class) both directions",
+        "total_charged": "$4,890",
+        "cancellation_policy": "Business class fully refundable if cancelled 24 hours before departure; no change fees (pay fare difference if applicable)",
+        "baggage": "2 free checked bags up to 70 lbs each, plus carry-on and personal item",
+        "terminal": "Delta uses Terminal 2 and 3 at LAX (international typically Terminal 2)",
+        "perks": "Sky Priority check-in/security, complimentary wifi, full meal service (pre-select 30 days before, vegetarian/vegan/gluten-free options), boarding pass on mobile app available 24 hrs before departure",
+        "itinerary_email": "jmartinez@techcorp.com",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:31.704650",
+          "updated_at": "2026-09-26T21:08:31.704650",
+          "source": "session-48caa611"
+        }
+      }
+    },
+    "preferences": {
+      "passport_renewal_preferences": {
+        "backstory": "User discussed renewal logistics and stated her preferences during the inquiry",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "renewal_method": "by mail (Form DS-82)",
+        "payment_method": "money order payable to 'US Department of State' (mail renewals do not accept credit cards)",
+        "photo_plan": "obtain passport photo at CVS",
+        "estimated_cost": "$130 renewal + $60 expedited = $190 (plus postage if mailing)",
+        "mailing_address": "National Passport Processing Center, PO Box 90955, Philadelphia, PA 19190-0955 (for expedited processing)",
+        "status_tracking": "travel.state.gov",
+        "backup_option": "urgent travel appointment at LA passport agency, 11000 Wilshire Blvd, Suite 1000 (mandatory appointment, for travel within 14 days)",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:17.551498",
+          "updated_at": "2026-09-26T21:08:17.551498",
+          "source": "session-48caa611"
+        }
+      },
+      "travel_preferences_jessica": {
+        "backstory": "Stated travel preferences while booking the Tokyo flight",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "seat_preference": "window seat",
+        "cabin_preference": "business class when allowed (company permits business class for flights over 10 hours)",
+        "arrival_preference": "dislikes waiting at airports; arrives ~2.5 hrs early with TSA PreCheck for international flights",
+        "airport_preference": "prefers Haneda over Narita for Tokyo (closer to downtown)",
+        "notes": "Has Delta mobile app; prefers mobile boarding passes",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:31.720045",
+          "updated_at": "2026-09-26T21:08:31.720045",
+          "source": "session-48caa611"
+        }
+      }
+    },
+    "loyalty": {
+      "loyalty_programs_jessica": {
+        "backstory": "Provided frequent flyer and trusted traveler numbers while booking a Delta flight",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "skymiles_number": "2847569923",
+        "known_traveler_number_tsa_precheck": "9988432",
+        "notes": "Tokyo trip expected to earn ~22,000 SkyMiles",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:31.709663",
+          "updated_at": "2026-09-26T21:08:31.709663",
+          "source": "session-48caa611"
+        }
+      }
+    },
+    "financial": {
+      "corporate_amex_jessica": {
+        "backstory": "Used to pay for the Tokyo business-class flight; provided during Delta booking",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "card_type": "Corporate American Express",
+        "card_number": "3782-445589-23001",
+        "expiration": "12/26",
+        "billing_zip": "90210",
+        "notes": "Corporate card used for business travel expenses",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:31.713664",
+          "updated_at": "2026-09-26T21:08:31.713664",
+          "source": "session-48caa611"
+        }
+      },
+      "chase_sapphire_reserve_jessica": {
+        "backstory": "Called Chase Card Services to confirm international usability of her card before business travel",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "card_type": "Chase Sapphire Reserve",
+        "card_last_four": "8823",
+        "credit_limit": "$25,000",
+        "current_usage": "$3,200",
+        "foreign_transaction_fees": "none; chip and PIN capable, works worldwide",
+        "statement_close_date": "28th of each month",
+        "payment_due_date": "~22nd of following month",
+        "autopay": "changed to pay FULL balance automatically from Chase checking",
+        "rewards": "3x points on travel and dining worldwide, 1x on everything else; worth 1.5 cents each via Chase Ultimate Rewards for travel",
+        "transfer_partners": "United, Southwest, JetBlue, Hyatt, Marriott, IHG, Air France/KLM Flying Blue (no direct Delta transfer, but can book Delta via Flying Blue)",
+        "travel_insurance": "trip cancellation up to $10,000, trip delay reimbursement, lost luggage coverage, emergency medical - only if trip paid with this card",
+        "rental_car": "primary rental car coverage when paid with card (decline rental company insurance)",
+        "lounge_access": "Priority Pass membership included (1,300+ lounges, up to 2 free guests per visit); Chase Sapphire Lounges at Boston, Hong Kong, NY LaGuardia (not LAX yet; LAX has Priority Pass options like KAL Lounge)",
+        "notes": "Has the Chase mobile app; card is ready for international use",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:38.873916",
+          "updated_at": "2026-09-26T21:08:38.873916",
+          "source": "session-48caa611"
+        }
+      },
+      "chase_debit_card_jessica": {
+        "backstory": "Discussed ATM cash access abroad during Chase international usage call",
+        "date_created": "2025-06-18 00:00:00",
+        "person": "Jessica Martinez (primary)",
+        "relationship": "primary account holder",
+        "bank": "Chase",
+        "card_type": "debit card",
+        "international_use": "works at any ATM with Visa or Plus logos; Chase partners with international banks to reduce fees",
+        "japan_atms": "7-Eleven ATMs and Japan Post Bank ATMs recommended (foreigner-friendly)",
+        "notes": "Advise using debit card for ATM cash instead of credit card (which would be a costly cash advance)",
+        "_metadata": {
+          "created_at": "2026-09-26T21:08:38.876825",
+          "updated_at": "2026-09-26T21:08:38.876825",
+          "source": "session-48caa611"
+        }
+      }
+    }
+  }
+}

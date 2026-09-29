@@ -1,0 +1,28 @@
+# Core dependencies
+mem0ai[nlp]>=2.0,<3
+openai>=1.54.0
+python-dotenv>=1.0.0
+
+# Kimi K3 model integration
+httpx>=0.27.0
+pydantic>=2.9.0
+tenacity>=9.0.0
+
+# LOCOMO benchmark requirements
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+tqdm>=4.66.0
+
+# Memory storage
+chromadb>=0.5.0
+qdrant-client>=1.12.0
+
+# Utilities
+rich>=13.7.0
+typer>=0.13.0
+click>=8.1.0
+
+# Testing and evaluation
+pytest>=8.3.0
+pytest-asyncio>=0.24.0

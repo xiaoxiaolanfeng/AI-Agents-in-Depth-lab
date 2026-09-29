@@ -1,0 +1,49 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Eval runtime data (we keep our final ones, ignore debug runs)
+data/conversations/
+data/memories/
+logs/
+*.log
+
+# Test outputs
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local secrets / API keys
+.env
+.env.local
+*.key
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# Editor backup files
+*~
+*.bak

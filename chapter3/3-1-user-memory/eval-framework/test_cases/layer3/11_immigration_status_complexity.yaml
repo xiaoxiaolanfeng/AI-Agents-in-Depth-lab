@@ -1,0 +1,763 @@
+test_id: layer3_11_immigration_status_complexity
+category: layer3
+title: Immigration Status Complexity
+description: Tests ability to identify conflicting requirements across visa attorney
+  consultation, employer HR discussion, and university international office to detect
+  timeline impossibilities and documentation gaps
+conversation_histories:
+- conversation_id: visa_attorney_consultation
+  timestamp: '2024-03-15'
+  messages:
+  - role: user
+    content: Hi, I need help with my work visa situation. My H1B is expiring soon
+  - role: assistant
+    content: I can help with that. When does your current H1B expire?
+  - role: user
+    content: September 30th this year
+  - role: assistant
+    content: That's about six months away. Are you in your initial three-year period?
+  - role: user
+    content: No, this is my first extension, so I've been on H1B for six years total
+  - role: assistant
+    content: Then you're approaching the six-year maximum. Has your employer started
+      green card processing?
+  - role: user
+    content: They mentioned it but haven't filed anything yet
+  - role: assistant
+    content: That's concerning. You need either PERM or I-140 filed to extend beyond
+      six years
+  - role: user
+    content: What's PERM?
+  - role: assistant
+    content: Labor certification - proves no qualified U.S. workers for your position
+  - role: user
+    content: How long does that take?
+  - role: assistant
+    content: Currently 8-12 months just for PERM, then I-140 after
+  - role: user
+    content: That won't be ready by September
+  - role: assistant
+    content: No, which is why we need alternative strategies
+  - role: user
+    content: What are my options?
+  - role: assistant
+    content: If PERM is filed 365 days before H1B expires, you get one-year extensions
+  - role: user
+    content: But that deadline already passed
+  - role: assistant
+    content: Unfortunately yes. Another option is spending one year outside the U.S.
+  - role: user
+    content: I can't leave for a year, my daughter is in high school here
+  - role: assistant
+    content: Is your spouse on H4 visa?
+  - role: user
+    content: Yes, and she just got her work authorization
+  - role: assistant
+    content: She could potentially change to H1B if she finds a sponsor
+  - role: user
+    content: Then I'd be on H4?
+  - role: assistant
+    content: Yes, as her dependent, but you couldn't work without EAD
+  - role: user
+    content: How long for H4 EAD?
+  - role: assistant
+    content: Currently 8-10 months processing
+  - role: user
+    content: So I'd be without work for almost a year?
+  - role: assistant
+    content: Unless we expedite, which requires showing financial hardship
+  - role: user
+    content: We have a mortgage and car payments
+  - role: assistant
+    content: That could qualify. What about your employer - will they file premium
+      processing?
+  - role: user
+    content: What's that?
+  - role: assistant
+    content: Pay extra $2,805 for 15-day processing on certain applications
+  - role: user
+    content: They might, they value my work
+  - role: assistant
+    content: Good. Has your employer ever filed for other employees' green cards?
+  - role: user
+    content: Yes, several colleagues got theirs
+  - role: assistant
+    content: Then they know the process. Push them to start immediately
+  - role: user
+    content: What category would I be?
+  - role: assistant
+    content: What's your position and education?
+  - role: user
+    content: Senior Software Engineer with a Master's degree
+  - role: assistant
+    content: Likely EB-2 category. Are you from India or China?
+  - role: user
+    content: India
+  - role: assistant
+    content: That's significant backlog - current priority date is 2012
+  - role: user
+    content: Twelve year wait?
+  - role: assistant
+    content: For final green card, yes. But I-140 approval lets you extend H1B indefinitely
+  - role: user
+    content: That's some relief
+  - role: assistant
+    content: Also consider EB-1 if you have exceptional achievements
+  - role: user
+    content: Like what?
+  - role: assistant
+    content: Patents, publications, conference presentations, awards
+  - role: user
+    content: I have three patents and several published papers
+  - role: assistant
+    content: That's promising! EB-1 has much shorter wait
+  - role: user
+    content: How short?
+  - role: assistant
+    content: Currently about 2 years for India
+  - role: user
+    content: Much better than 12
+  - role: assistant
+    content: Yes. Gather documentation of all achievements
+  - role: user
+    content: What else would I need?
+  - role: assistant
+    content: Letters from experts in your field, evidence of impact
+  - role: user
+    content: I can get those
+  - role: assistant
+    content: Good. Now, is your daughter a U.S. citizen?
+  - role: user
+    content: No, she was born in India, came here when she was 5
+  - role: assistant
+    content: So she's also on H4. She'll age out at 21
+  - role: user
+    content: She's 17 now
+  - role: assistant
+    content: Critical issue - if she turns 21 before green card, she loses status
+  - role: user
+    content: What can we do?
+  - role: assistant
+    content: She needs to change to F-1 student visa for college
+  - role: user
+    content: She's applying to universities now
+  - role: assistant
+    content: Good timing. F-1 gives independent status
+  - role: user
+    content: What about my spouse's parents visiting?
+  - role: assistant
+    content: On visitor visa?
+  - role: user
+    content: They want to come for six months
+  - role: assistant
+    content: B-2 visitor visa allows that, but careful with intent
+  - role: user
+    content: What do you mean?
+  - role: assistant
+    content: They can't work or appear to be immigrating
+  - role: user
+    content: They just want to help with the house and spend time with us
+  - role: assistant
+    content: That's fine, but they should maintain ties to India
+  - role: user
+    content: They own property there
+  - role: assistant
+    content: Perfect evidence of non-immigrant intent
+  - role: user
+    content: Back to my situation - what if my company lays people off?
+  - role: assistant
+    content: You'd have 60 days to find new employment or change status
+  - role: user
+    content: Only 60 days?
+  - role: assistant
+    content: Yes, the grace period is short
+  - role: user
+    content: What if I start my own company?
+  - role: assistant
+    content: You can't work for your own company on H1B
+  - role: user
+    content: Even if it sponsors me?
+  - role: assistant
+    content: Correct, ownership issues make it problematic
+  - role: user
+    content: What about O-1 visa?
+  - role: assistant
+    content: For extraordinary ability - your patents might qualify
+  - role: user
+    content: Is that better than H1B?
+  - role: assistant
+    content: More flexible, no annual cap, but higher evidence bar
+  - role: user
+    content: Should I pursue both?
+  - role: assistant
+    content: Can't have multiple petitions from same employer
+  - role: user
+    content: So I need to choose?
+  - role: assistant
+    content: Or have different employers file different petitions
+  - role: user
+    content: My university might sponsor O-1 for research work
+  - role: assistant
+    content: You do research there?
+  - role: user
+    content: Part-time consulting, about 10 hours per week
+  - role: assistant
+    content: Perfect for O-1. Keep H1B with main employer
+  - role: user
+    content: Can I work two jobs like that?
+  - role: assistant
+    content: Yes, concurrent employment is allowed
+  - role: user
+    content: This is getting complex
+  - role: assistant
+    content: Immigration often is. Document everything carefully
+  - role: user
+    content: What documents are most important?
+  - role: assistant
+    content: Pay stubs, tax returns, I-94 records, approval notices
+  - role: user
+    content: I should organize those
+  - role: assistant
+    content: Yes, and keep multiple copies
+  - role: user
+    content: Thank you for explaining everything
+  - role: assistant
+    content: Start the green card process immediately. Time is critical
+- conversation_id: employer_hr_discussion
+  timestamp: '2024-05-20'
+  messages:
+  - role: user
+    content: Hi, I wanted to discuss my visa situation and green card sponsorship
+  - role: assistant
+    content: Of course! I see you're on H1B. How can we help?
+  - role: user
+    content: My six years are almost up in September
+  - role: assistant
+    content: Right, I see that in your file. We should start your green card process
+  - role: user
+    content: My attorney said we needed to start months ago
+  - role: assistant
+    content: Well, we have a process. First, we need to post the job internally
+  - role: user
+    content: How long does that take?
+  - role: assistant
+    content: Company policy requires 30 days internal posting
+  - role: user
+    content: Then what?
+  - role: assistant
+    content: If no qualified internal candidates, we proceed with PERM
+  - role: user
+    content: But PERM takes 8-12 months
+  - role: assistant
+    content: Yes, it's a lengthy process unfortunately
+  - role: user
+    content: I'll be out of status before it's done
+  - role: assistant
+    content: Let me check... You're right, timing is tight
+  - role: user
+    content: Can we expedite anything?
+  - role: assistant
+    content: Company policy is no premium processing for PERM
+  - role: user
+    content: PERM can't be premium processed anyway
+  - role: assistant
+    content: Oh right, I meant for the I-140 later
+  - role: user
+    content: Will you at least premium process the I-140?
+  - role: assistant
+    content: That requires director approval for the extra cost
+  - role: user
+    content: How much?
+  - role: assistant
+    content: $2,805 for premium processing
+  - role: user
+    content: I can pay it myself if needed
+  - role: assistant
+    content: Company policy doesn't allow employee payment
+  - role: user
+    content: This is frustrating
+  - role: assistant
+    content: I understand. Let me talk to leadership
+  - role: user
+    content: What about the job requirements for PERM?
+  - role: assistant
+    content: We'll use your current job description
+  - role: user
+    content: But I've taken on additional responsibilities
+  - role: assistant
+    content: We need to use the original H1B job description
+  - role: user
+    content: That's from six years ago
+  - role: assistant
+    content: It maintains consistency for immigration
+  - role: user
+    content: But it doesn't reflect my actual work
+  - role: assistant
+    content: We can update it slightly
+  - role: user
+    content: My attorney mentioned EB-1 might be faster
+  - role: assistant
+    content: Company doesn't sponsor EB-1 applications
+  - role: user
+    content: Why not?
+  - role: assistant
+    content: They're complex and have lower approval rates
+  - role: user
+    content: But I have patents and publications
+  - role: assistant
+    content: That's impressive but policy is EB-2 or EB-3 only
+  - role: user
+    content: Can I self-petition for EB-1?
+  - role: assistant
+    content: You'd need to do that outside company sponsorship
+  - role: user
+    content: But I'd still need H1B extension meanwhile
+  - role: assistant
+    content: Right, and we control that
+  - role: user
+    content: So I'm stuck with your timeline
+  - role: assistant
+    content: We'll do our best to expedite
+  - role: user
+    content: What about prevailing wage determination?
+  - role: assistant
+    content: That's the first step, takes 4-6 months
+  - role: user
+    content: Can we start that immediately?
+  - role: assistant
+    content: After the internal posting completes
+  - role: user
+    content: So another month delay
+  - role: assistant
+    content: Company process, I'm sorry
+  - role: user
+    content: My spouse just got H4 EAD work permit
+  - role: assistant
+    content: That's great for your family
+  - role: user
+    content: If I lose H1B, she loses work authorization
+  - role: assistant
+    content: True, they're connected
+  - role: user
+    content: This affects our whole family
+  - role: assistant
+    content: We understand the importance
+  - role: user
+    content: Do you though? My daughter's college depends on this
+  - role: assistant
+    content: We value your contributions
+  - role: user
+    content: Then why the delays?
+  - role: assistant
+    content: Legal wants to review all applications
+  - role: user
+    content: How long does legal review take?
+  - role: assistant
+    content: Usually 2-3 weeks
+  - role: user
+    content: On top of everything else?
+  - role: assistant
+    content: It's part of the timeline
+  - role: user
+    content: What if another company offers sponsorship?
+  - role: assistant
+    content: You're free to pursue other opportunities
+  - role: user
+    content: But I've been here eight years
+  - role: assistant
+    content: We'd hate to lose you
+  - role: user
+    content: Then help me stay legally
+  - role: assistant
+    content: I'll escalate to the VP
+  - role: user
+    content: When will I hear back?
+  - role: assistant
+    content: Give me a week
+  - role: user
+    content: I need answers sooner
+  - role: assistant
+    content: I'll try for three days
+  - role: user
+    content: What about my team members from India?
+  - role: assistant
+    content: What about them?
+  - role: user
+    content: Three got green cards last year
+  - role: assistant
+    content: Each case is different
+  - role: user
+    content: They had less experience than me
+  - role: assistant
+    content: Timing and process change
+  - role: user
+    content: This seems discriminatory
+  - role: assistant
+    content: It's absolutely not, just procedural timing
+  - role: user
+    content: I'm documenting everything
+  - role: assistant
+    content: That's your right
+  - role: user
+    content: What about company immigration lawyers?
+  - role: assistant
+    content: We use Friedman & Associates
+  - role: user
+    content: Can I speak with them directly?
+  - role: assistant
+    content: All communication goes through HR
+  - role: user
+    content: That's inefficient
+  - role: assistant
+    content: It's policy for consistency
+  - role: user
+    content: My personal attorney says direct communication is normal
+  - role: assistant
+    content: Different companies, different approaches
+  - role: user
+    content: What's the total budget for my green card?
+  - role: assistant
+    content: We typically allocate $15,000-20,000
+  - role: user
+    content: Is that including attorney fees?
+  - role: assistant
+    content: Yes, all inclusive
+  - role: user
+    content: That seems sufficient
+  - role: assistant
+    content: Budget isn't the issue
+  - role: user
+    content: Then what is?
+  - role: assistant
+    content: Process and timing requirements
+  - role: user
+    content: Which could have started months ago
+  - role: assistant
+    content: I'll push for expedited handling
+  - role: user
+    content: Please do, my family's future depends on it
+  - role: assistant
+    content: Understood. I'll update you this week
+- conversation_id: university_international_office
+  timestamp: '2024-07-02'
+  messages:
+  - role: user
+    content: Hi, I need help with my immigration paperwork for my research position
+  - role: assistant
+    content: Hello! I can assist with that. What type of visa are you currently on?
+  - role: user
+    content: H1B with my primary employer, but I consult here part-time
+  - role: assistant
+    content: I see. Do you have concurrent H1B with us?
+  - role: user
+    content: No, I've been working on a consulting agreement
+  - role: assistant
+    content: How many hours per week?
+  - role: user
+    content: About 10 hours
+  - role: assistant
+    content: That requires proper work authorization
+  - role: user
+    content: I thought consulting was allowed
+  - role: assistant
+    content: Not without concurrent H1B or other authorization
+  - role: user
+    content: Oh no, have I been working illegally?
+  - role: assistant
+    content: When did you start?
+  - role: user
+    content: About six months ago
+  - role: assistant
+    content: That's concerning. You've been out of status
+  - role: user
+    content: What does that mean?
+  - role: assistant
+    content: Unauthorized employment can affect future immigration benefits
+  - role: user
+    content: My green card application?
+  - role: assistant
+    content: Potentially, yes
+  - role: user
+    content: What should I do?
+  - role: assistant
+    content: Stop working immediately until we get proper authorization
+  - role: user
+    content: But I have ongoing research projects
+  - role: assistant
+    content: I understand, but continuing makes it worse
+  - role: user
+    content: Can we fix this retroactively?
+  - role: assistant
+    content: No, we can't backdate work authorization
+  - role: user
+    content: My attorney mentioned O-1 visa possibility
+  - role: assistant
+    content: O-1 is for extraordinary ability
+  - role: user
+    content: I have patents and publications
+  - role: assistant
+    content: How many publications?
+  - role: user
+    content: About 15 peer-reviewed papers
+  - role: assistant
+    content: That's good. Citation count?
+  - role: user
+    content: Over 500 citations total
+  - role: assistant
+    content: Strong for O-1. But there's the unauthorized work issue
+  - role: user
+    content: Will that disqualify me?
+  - role: assistant
+    content: It complicates things significantly
+  - role: user
+    content: What if we just apply going forward?
+  - role: assistant
+    content: We must disclose previous employment
+  - role: user
+    content: Even consulting?
+  - role: assistant
+    content: Any work for compensation
+  - role: user
+    content: I thought universities were different
+  - role: assistant
+    content: No, same immigration laws apply
+  - role: user
+    content: My department head said it was fine
+  - role: assistant
+    content: Academic departments don't always understand immigration law
+  - role: user
+    content: Clearly not
+  - role: assistant
+    content: Let's focus on solutions
+  - role: user
+    content: Please, my H1B expires in September
+  - role: assistant
+    content: That's very soon
+  - role: user
+    content: My company is dragging on green card filing
+  - role: assistant
+    content: Typical unfortunately
+  - role: user
+    content: Can the university sponsor me instead?
+  - role: assistant
+    content: For full-time position only
+  - role: user
+    content: What if I increase to full-time?
+  - role: assistant
+    content: Is there a full-time position available?
+  - role: user
+    content: The professor mentioned possibility
+  - role: assistant
+    content: We'd need formal offer letter
+  - role: user
+    content: How long for university H1B?
+  - role: assistant
+    content: Cap-exempt, so no lottery, but still 4-6 months regular
+  - role: user
+    content: Or 15 days premium?
+  - role: assistant
+    content: Yes, if department pays
+  - role: user
+    content: Will they?
+  - role: assistant
+    content: Depends on funding and need
+  - role: user
+    content: The grant has money
+  - role: assistant
+    content: Federal grant?
+  - role: user
+    content: Yes, NSF grant
+  - role: assistant
+    content: Federal funds can't pay premium processing
+  - role: user
+    content: Another obstacle
+  - role: assistant
+    content: Department might have other funds
+  - role: user
+    content: I'll ask
+  - role: assistant
+    content: Now about your daughter
+  - role: user
+    content: She's applying to universities
+  - role: assistant
+    content: Will she need F-1 visa?
+  - role: user
+    content: She's currently on H4
+  - role: assistant
+    content: F-1 requires proof of funding
+  - role: user
+    content: We can show bank statements
+  - role: assistant
+    content: Need about $70,000 per year demonstrated
+  - role: user
+    content: That much?
+  - role: assistant
+    content: Tuition plus living expenses
+  - role: user
+    content: We don't have that much saved
+  - role: assistant
+    content: Sponsor letters from family?
+  - role: user
+    content: Maybe from India
+  - role: assistant
+    content: They need to show strong finances
+  - role: user
+    content: This is getting complicated
+  - role: assistant
+    content: Also, change from H4 to F-1 shows immigrant intent issue
+  - role: user
+    content: What issue?
+  - role: assistant
+    content: F-1 requires non-immigrant intent
+  - role: user
+    content: But we have green card pending
+  - role: assistant
+    content: Exactly the problem
+  - role: user
+    content: So she can't get F-1?
+  - role: assistant
+    content: It's possible but complicated
+  - role: user
+    content: What's the alternative?
+  - role: assistant
+    content: Stay on H4 until age 21
+  - role: user
+    content: Then what?
+  - role: assistant
+    content: She'd need independent status
+  - role: user
+    content: But she'll be in college
+  - role: assistant
+    content: Gap problem if green card isn't ready
+  - role: user
+    content: This is a nightmare
+  - role: assistant
+    content: Common situation unfortunately
+  - role: user
+    content: My spouse wants to work too
+  - role: assistant
+    content: She has H4 EAD?
+  - role: user
+    content: Yes, but tied to my H1B
+  - role: assistant
+    content: Right, dependent benefit
+  - role: user
+    content: If I change to university H1B?
+  - role: assistant
+    content: She'd need new H4 based on that
+  - role: user
+    content: More paperwork and delays
+  - role: assistant
+    content: Several months typically
+  - role: user
+    content: During which she can't work?
+  - role: assistant
+    content: Correct, gap in authorization
+  - role: user
+    content: We can't afford that
+  - role: assistant
+    content: I understand the difficulty
+  - role: user
+    content: What about the unauthorized work?
+  - role: assistant
+    content: We should consult immigration attorney
+  - role: user
+    content: I have one personally
+  - role: assistant
+    content: Good, this needs careful handling
+  - role: user
+    content: Will the university report me?
+  - role: assistant
+    content: We have obligation to correct going forward
+  - role: user
+    content: But not report past?
+  - role: assistant
+    content: Depends on circumstances
+  - role: user
+    content: That's not reassuring
+  - role: assistant
+    content: I recommend full legal consultation immediately
+  - role: user
+    content: I will. This is so stressful
+  - role: assistant
+    content: Immigration is complex, we'll help where we can
+user_question: My H1B expires in two months and I just got a termination notice from
+  my employer citing 'restructuring.' What's my legal status and what are my options
+  to stay in the country?
+evaluation_criteria: 'The agent must identify multiple critical legal issues and timeline
+  impossibilities by connecting information across all conversations:
+
+
+  Immediate Crisis Issues:
+
+  1. 60-day grace period starts upon termination, but H1B expires September 30th (less
+  than 2 months away)
+
+  2. Unauthorized employment at university for 6 months creates serious status violation
+
+  3. Cannot legally continue university work without proper authorization
+
+  4. Family''s dependent status (spouse H4 EAD and daughter H4) terminated with H1B
+
+
+  Failed Safety Nets:
+
+  1. Company never started green card process despite promises (only internal posting
+  mentioned)
+
+  2. No PERM filed 365 days before expiry, so no H1B extension possible
+
+  3. University O-1 sponsorship compromised by unauthorized work history
+
+  4. EB-1 self-petition takes too long without maintaining status
+
+
+  Documentation Problems:
+
+  1. Must disclose unauthorized university work in any new petition
+
+  2. Previous status violations affect all future immigration benefits
+
+  3. University has "obligation to correct" and might report violations
+
+
+  Family Complications:
+
+  1. Spouse loses work authorization immediately
+
+  2. Daughter approaching 21, needs F-1 but shows immigrant intent
+
+  3. F-1 requires $70,000 proof of funds they don''t have
+
+  4. Cannot maintain mortgage/car payments without income
+
+
+  Timeline Impossibilities:
+
+  1. New H1B takes 4-6 months (only 2 months remaining)
+
+  2. Premium processing still takes 15 days minimum plus preparation
+
+  3. University can''t use federal grant funds for premium processing
+
+  4. PERM process needs 8-12 months (was never started)
+
+
+  Limited Options:
+
+  1. Find new employer for H1B transfer within days (complicated by violations)
+
+  2. Spouse change to H1B if she finds sponsor (but process takes months)
+
+  3. Leave US immediately to avoid accruing unlawful presence
+
+  4. Student visa (but shows immigrant intent with pending GC)
+
+  5. Marriage to US citizen (not applicable based on conversations)
+
+
+  The agent should recognize this is an emergency requiring immediate legal consultation,
+  possible departure from US to avoid unlawful presence, and that the unauthorized
+  work has severely compromised all options.
+
+  '

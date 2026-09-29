@@ -1,0 +1,884 @@
+test_id: layer3_12_real_estate_investment_tangle
+category: layer3
+title: Real Estate Investment Tangle
+description: Tests ability to uncover interconnected property liens, insurance gaps,
+  and tenant issues across mortgage broker, property manager, and insurance adjuster
+  conversations
+conversation_histories:
+- conversation_id: mortgage_broker_refinance
+  timestamp: '2024-04-18'
+  messages:
+  - role: user
+    content: Hi, I want to refinance my investment properties to get better rates
+  - role: assistant
+    content: Excellent timing with rates dropping. How many properties do you have?
+  - role: user
+    content: Four rental properties plus my primary residence
+  - role: assistant
+    content: That's a substantial portfolio. Let's start with your primary home
+  - role: user
+    content: It's worth about $750,000 with $320,000 remaining on the mortgage
+  - role: assistant
+    content: Good equity position. Current interest rate?
+  - role: user
+    content: 6.8% from two years ago
+  - role: assistant
+    content: We can definitely improve that. Current rates are around 5.2% for primary
+      residences
+  - role: user
+    content: What about the rentals?
+  - role: assistant
+    content: Investment properties are typically 0.75% higher, so around 5.95%
+  - role: user
+    content: Still better than what I have
+  - role: assistant
+    content: What rates are you paying on the rentals?
+  - role: user
+    content: They vary - 7.2%, 6.9%, 7.5%, and one at 8.1%
+  - role: assistant
+    content: That 8.1% must be painful. When did you purchase that property?
+  - role: user
+    content: Last year, it was a private money loan initially
+  - role: assistant
+    content: Ah, hard money conversion. Those are always expensive
+  - role: user
+    content: Tell me about it. Can we refinance all five properties?
+  - role: assistant
+    content: Possibly, but there are limits on investment property loans
+  - role: user
+    content: What kind of limits?
+  - role: assistant
+    content: Most lenders cap at 4-6 financed properties per borrower
+  - role: user
+    content: I have five including my residence
+  - role: assistant
+    content: Primary residence doesn't count toward investment limits
+  - role: user
+    content: Oh good, so all four rentals are possible
+  - role: assistant
+    content: Yes, but we need to verify rental income
+  - role: user
+    content: I have lease agreements for all properties
+  - role: assistant
+    content: Perfect. What's the total monthly rental income?
+  - role: user
+    content: About $12,500 across all four properties
+  - role: assistant
+    content: And total monthly mortgage payments?
+  - role: user
+    content: Roughly $8,800
+  - role: assistant
+    content: Good cash flow. Do you have reserves?
+  - role: user
+    content: What do you mean?
+  - role: assistant
+    content: Lenders require 6 months of payments in reserves for investment properties
+  - role: user
+    content: For all of them?
+  - role: assistant
+    content: Yes, 6 months × $8,800 = $52,800 in liquid assets
+  - role: user
+    content: I have about $40,000 in savings
+  - role: assistant
+    content: That's short. Do you have retirement accounts?
+  - role: user
+    content: Yes, about $200,000 in my 401k
+  - role: assistant
+    content: We can count 70% of retirement assets, so that's $140,000
+  - role: user
+    content: So $40,000 plus $140,000 is plenty
+  - role: assistant
+    content: Yes, well above requirements. Now about property condition
+  - role: user
+    content: They're all in good shape
+  - role: assistant
+    content: Any current insurance claims or damage?
+  - role: user
+    content: One property had water damage last month
+  - role: assistant
+    content: Has it been repaired?
+  - role: user
+    content: Repairs are ongoing
+  - role: assistant
+    content: We can't close until repairs are complete
+  - role: user
+    content: How long does refinancing take?
+  - role: assistant
+    content: Typically 45-60 days for investment properties
+  - role: user
+    content: Why longer than primary residences?
+  - role: assistant
+    content: More documentation, appraisals, and verification required
+  - role: user
+    content: What documentation do you need?
+  - role: assistant
+    content: Two years tax returns, all lease agreements, property management statements
+  - role: user
+    content: I self-manage three properties
+  - role: assistant
+    content: Then bank statements showing rental deposits
+  - role: user
+    content: One tenant pays cash
+  - role: assistant
+    content: Cash payments are problematic for verification
+  - role: user
+    content: Why?
+  - role: assistant
+    content: No paper trail for underwriters
+  - role: user
+    content: But I deposit it monthly
+  - role: assistant
+    content: Do you write receipts?
+  - role: user
+    content: Not always
+  - role: assistant
+    content: That could reduce qualifying rental income
+  - role: user
+    content: By how much?
+  - role: assistant
+    content: Unverified rent might not count at all
+  - role: user
+    content: That's $1,800 per month
+  - role: assistant
+    content: Which could affect your debt-to-income ratio
+  - role: user
+    content: What ratio do I need?
+  - role: assistant
+    content: Below 45% for investment properties
+  - role: user
+    content: What about property taxes?
+  - role: assistant
+    content: Are they current on all properties?
+  - role: user
+    content: I think so
+  - role: assistant
+    content: We'll verify during title search
+  - role: user
+    content: What if there's a lien?
+  - role: assistant
+    content: Must be paid at or before closing
+  - role: user
+    content: I had a contractor dispute on one property
+  - role: assistant
+    content: Did they file a mechanic's lien?
+  - role: user
+    content: They threatened to
+  - role: assistant
+    content: We need to verify that's clear
+  - role: user
+    content: How do we check?
+  - role: assistant
+    content: Title company will run a search
+  - role: user
+    content: What about the property with water damage?
+  - role: assistant
+    content: Insurance covering the repairs?
+  - role: user
+    content: Partially, there's a coverage dispute
+  - role: assistant
+    content: That's concerning. Unresolved claims can delay closing
+  - role: user
+    content: The adjuster said it might take weeks
+  - role: assistant
+    content: We can't close with an open claim
+  - role: user
+    content: Can we refinance the others first?
+  - role: assistant
+    content: Yes, we can phase the refinances
+  - role: user
+    content: Good idea
+  - role: assistant
+    content: Which property do you want to start with?
+  - role: user
+    content: The one with 8.1% rate
+  - role: assistant
+    content: Smart choice. Biggest savings there
+  - role: user
+    content: What's the loan-to-value limit?
+  - role: assistant
+    content: 75% for investment property cash-out, 80% for rate-term refinance
+  - role: user
+    content: I want to pull some cash out
+  - role: assistant
+    content: For what purpose?
+  - role: user
+    content: Renovations on another property
+  - role: assistant
+    content: How much do you need?
+  - role: user
+    content: About $50,000
+  - role: assistant
+    content: Let's run the numbers on each property
+  - role: user
+    content: Property one is worth $380,000, I owe $275,000
+  - role: assistant
+    content: At 75% LTV, maximum loan is $285,000
+  - role: user
+    content: So only $10,000 cash out?
+  - role: assistant
+    content: Plus closing costs, might not be worth it
+  - role: user
+    content: What about property two?
+  - role: assistant
+    content: What's the value and balance?
+  - role: user
+    content: Worth $425,000, owe $290,000
+  - role: assistant
+    content: Maximum loan $318,750, so $28,750 cash out
+  - role: user
+    content: Still not enough
+  - role: assistant
+    content: What about a HELOC on your primary residence?
+  - role: user
+    content: Instead of refinancing?
+  - role: assistant
+    content: In addition to. HELOC for cash, refinance for rate reduction
+  - role: user
+    content: What HELOC rate would I get?
+  - role: assistant
+    content: Currently around 7.5-8% for investment purposes
+  - role: user
+    content: That's high
+  - role: assistant
+    content: But it's flexible - only pay interest on what you use
+  - role: user
+    content: True. How much could I get?
+  - role: assistant
+    content: With $750,000 value and $320,000 mortgage, up to $125,000
+  - role: user
+    content: That would definitely cover renovations
+  - role: assistant
+    content: And it's faster - 2-3 weeks versus 45-60 days
+  - role: user
+    content: Let's do both then
+  - role: assistant
+    content: I'll prepare applications for all refinances plus HELOC
+- conversation_id: property_manager_issues
+  timestamp: '2024-06-05'
+  messages:
+  - role: user
+    content: I need to discuss several issues with my rental properties
+  - role: assistant
+    content: I'm here to help. Which properties are you concerned about?
+  - role: user
+    content: All four actually. Let's start with the Maple Street property
+  - role: assistant
+    content: That's unit 234, correct? Three-bedroom house?
+  - role: user
+    content: Yes. The tenant hasn't paid rent in two months
+  - role: assistant
+    content: Two months? Why wasn't I notified after the first month?
+  - role: user
+    content: I thought you were handling it
+  - role: assistant
+    content: We only manage two of your four properties
+  - role: user
+    content: Oh right, I self-manage Maple Street
+  - role: assistant
+    content: You should start eviction proceedings immediately
+  - role: user
+    content: I served a three-day notice last week
+  - role: assistant
+    content: Good. If they don't pay, file with the court
+  - role: user
+    content: How long does eviction take?
+  - role: assistant
+    content: In our jurisdiction, typically 30-45 days if uncontested
+  - role: user
+    content: That's almost two more months without rent
+  - role: assistant
+    content: Unfortunately yes. Plus court costs and sheriff fees
+  - role: user
+    content: How much?
+  - role: assistant
+    content: Usually $500-800 total
+  - role: user
+    content: On top of lost rent
+  - role: assistant
+    content: Yes. What about the properties we manage?
+  - role: user
+    content: The Pine Avenue property has maintenance issues
+  - role: assistant
+    content: I show several work orders pending
+  - role: user
+    content: The tenant says the AC hasn't worked for weeks
+  - role: assistant
+    content: We sent a technician last Tuesday
+  - role: user
+    content: And?
+  - role: assistant
+    content: Needs complete replacement - compressor failed
+  - role: user
+    content: Cost?
+  - role: assistant
+    content: Quote is $4,800 for new unit
+  - role: user
+    content: That's expensive
+  - role: assistant
+    content: It's a 20-year-old system, past its life
+  - role: user
+    content: Can we repair instead?
+  - role: assistant
+    content: Compressor alone is $2,800 with no warranty
+  - role: user
+    content: So replacement makes more sense
+  - role: assistant
+    content: Yes, with full warranty
+  - role: user
+    content: Fine, approve it
+  - role: assistant
+    content: We need written authorization
+  - role: user
+    content: Email it to me
+  - role: assistant
+    content: Will do. What about Oak Street property?
+  - role: user
+    content: The one with water damage?
+  - role: assistant
+    content: Yes, from the upstairs bathroom leak
+  - role: user
+    content: Insurance is dragging their feet
+  - role: assistant
+    content: Meanwhile, we can't rent the downstairs unit
+  - role: user
+    content: I'm losing $1,500 monthly there
+  - role: assistant
+    content: Plus the upstairs tenant wants rent reduction
+  - role: user
+    content: Why?
+  - role: assistant
+    content: Construction noise and dust from repairs
+  - role: user
+    content: How much reduction?
+  - role: assistant
+    content: They're asking 50% for two months
+  - role: user
+    content: That's $1,200 lost
+  - role: assistant
+    content: Better than vacancy if they leave
+  - role: user
+    content: True. What about the fourth property?
+  - role: assistant
+    content: Cedar Lane is stable, but lease expires next month
+  - role: user
+    content: Will they renew?
+  - role: assistant
+    content: They want to, but are asking for upgrades
+  - role: user
+    content: What upgrades?
+  - role: assistant
+    content: New appliances and fresh paint
+  - role: user
+    content: The appliances are only five years old
+  - role: assistant
+    content: The refrigerator has issues
+  - role: user
+    content: Issues?
+  - role: assistant
+    content: Not cooling properly, repair estimate is $400
+  - role: user
+    content: Might as well replace it then
+  - role: assistant
+    content: New one is about $1,200
+  - role: user
+    content: If it keeps good tenants
+  - role: assistant
+    content: They've been there three years, always pay on time
+  - role: user
+    content: Approve the refrigerator
+  - role: assistant
+    content: What about rent increase?
+  - role: user
+    content: What's market rate?
+  - role: assistant
+    content: Similar properties rent for $2,700-2,800
+  - role: user
+    content: They're paying $2,500
+  - role: assistant
+    content: I suggest $2,650 with the upgrades
+  - role: user
+    content: That seems fair
+  - role: assistant
+    content: I'll present that offer
+  - role: user
+    content: Back to Maple Street - any damage from the non-paying tenant?
+  - role: assistant
+    content: You haven't inspected?
+  - role: user
+    content: They won't let me in
+  - role: assistant
+    content: That's violation of lease
+  - role: user
+    content: Another reason for eviction
+  - role: assistant
+    content: Document everything for court
+  - role: user
+    content: I'm worried about the property condition
+  - role: assistant
+    content: Justified concern
+  - role: user
+    content: Should I hire you to manage it?
+  - role: assistant
+    content: We charge 8% of collected rent
+  - role: user
+    content: But you prevent these problems
+  - role: assistant
+    content: We screen tenants thoroughly
+  - role: user
+    content: The current tenant seemed fine
+  - role: assistant
+    content: Did you run credit and background?
+  - role: user
+    content: Just credit
+  - role: assistant
+    content: We do criminal, eviction history, employment verification
+  - role: user
+    content: More thorough
+  - role: assistant
+    content: It prevents problems
+  - role: user
+    content: What about the cash-paying tenant?
+  - role: assistant
+    content: Which property?
+  - role: user
+    content: Also Maple Street, the cottage in back
+  - role: assistant
+    content: Separate unit?
+  - role: user
+    content: Yes, mother-in-law suite
+  - role: assistant
+    content: Is it permitted?
+  - role: user
+    content: What do you mean?
+  - role: assistant
+    content: Does the city know it's a rental?
+  - role: user
+    content: I'm not sure
+  - role: assistant
+    content: That's risky if not properly permitted
+  - role: user
+    content: What's the risk?
+  - role: assistant
+    content: Fines, forced vacancy, insurance issues
+  - role: user
+    content: Insurance?
+  - role: assistant
+    content: They might not cover unpermitted units
+  - role: user
+    content: I never thought about that
+  - role: assistant
+    content: You should verify immediately
+  - role: user
+    content: How?
+  - role: assistant
+    content: Check with city planning department
+  - role: user
+    content: What if it's not permitted?
+  - role: assistant
+    content: Apply for permits retroactively
+  - role: user
+    content: Is that possible?
+  - role: assistant
+    content: Sometimes, with penalties
+  - role: user
+    content: More expenses
+  - role: assistant
+    content: Better than being shut down
+  - role: user
+    content: 'True'
+  - role: assistant
+    content: Want us to handle it?
+  - role: user
+    content: How much extra?
+  - role: assistant
+    content: We charge hourly for permit work, $75/hour
+  - role: user
+    content: Let me think about it
+  - role: assistant
+    content: Don't wait too long
+  - role: user
+    content: Why the urgency?
+  - role: assistant
+    content: If the eviction goes to court, it might come up
+  - role: user
+    content: Good point
+  - role: assistant
+    content: Judges don't like unpermitted rentals
+  - role: user
+    content: This is getting complicated
+  - role: assistant
+    content: Property management often is
+  - role: user
+    content: That's why I need help
+  - role: assistant
+    content: We're here when you're ready
+- conversation_id: insurance_adjuster_claim
+  timestamp: '2024-07-15'
+  messages:
+  - role: user
+    content: I need to check on my water damage claim from April
+  - role: assistant
+    content: Let me pull up your file. Claim number WD-445523?
+  - role: user
+    content: Yes, that's it
+  - role: assistant
+    content: I see this is for your Oak Street property
+  - role: user
+    content: Right, the upstairs bathroom leak
+  - role: assistant
+    content: Our initial estimate was $18,000 in damages
+  - role: user
+    content: But you're only covering $8,000?
+  - role: assistant
+    content: There are coverage limitations we discovered
+  - role: user
+    content: What limitations?
+  - role: assistant
+    content: First, you have a $2,500 deductible
+  - role: user
+    content: Okay, that's $15,500 then
+  - role: assistant
+    content: Also, the pipe that burst was already corroded
+  - role: user
+    content: So?
+  - role: assistant
+    content: Gradual deterioration isn't covered
+  - role: user
+    content: But it burst suddenly
+  - role: assistant
+    content: The cause was long-term neglect
+  - role: user
+    content: How can you prove that?
+  - role: assistant
+    content: Our inspector found extensive corrosion
+  - role: user
+    content: One corroded pipe means neglect?
+  - role: assistant
+    content: Pattern of deferred maintenance throughout
+  - role: user
+    content: That's not true
+  - role: assistant
+    content: The report lists multiple issues
+  - role: user
+    content: Like what?
+  - role: assistant
+    content: Roof needs replacement, foundation cracks, old electrical
+  - role: user
+    content: Those aren't related to the water damage
+  - role: assistant
+    content: They show pattern of maintenance neglect
+  - role: user
+    content: I'm refinancing and fixing things
+  - role: assistant
+    content: When?
+  - role: user
+    content: Starting next month
+  - role: assistant
+    content: After the damage occurred
+  - role: user
+    content: Because I need money for repairs
+  - role: assistant
+    content: Also, was this property vacant?
+  - role: user
+    content: The downstairs unit was
+  - role: assistant
+    content: For how long?
+  - role: user
+    content: Maybe two months
+  - role: assistant
+    content: Vacancy over 30 days requires notification
+  - role: user
+    content: I didn't know
+  - role: assistant
+    content: It's in your policy
+  - role: user
+    content: Who reads all that?
+  - role: assistant
+    content: Vacancy increases risk
+  - role: user
+    content: But the leak was upstairs
+  - role: assistant
+    content: Water damage spreads
+  - role: user
+    content: The upstairs was occupied
+  - role: assistant
+    content: Partially vacant properties have restrictions
+  - role: user
+    content: This is ridiculous
+  - role: assistant
+    content: I understand your frustration
+  - role: user
+    content: So you're only paying $8,000?
+  - role: assistant
+    content: That covers sudden damage, not gradual
+  - role: user
+    content: How did you determine the split?
+  - role: assistant
+    content: Engineering assessment
+  - role: user
+    content: Can I challenge it?
+  - role: assistant
+    content: You can hire your own engineer
+  - role: user
+    content: More money out of pocket
+  - role: assistant
+    content: Or accept our assessment
+  - role: user
+    content: What about loss of rent?
+  - role: assistant
+    content: You have loss of rent coverage?
+  - role: user
+    content: I thought so
+  - role: assistant
+    content: Checking... yes, $2,000 monthly maximum
+  - role: user
+    content: The unit rents for $1,500
+  - role: assistant
+    content: So that's covered
+  - role: user
+    content: For how long?
+  - role: assistant
+    content: Until unit is habitable, maximum 6 months
+  - role: user
+    content: It's been three months already
+  - role: assistant
+    content: We've paid one month so far
+  - role: user
+    content: Why only one?
+  - role: assistant
+    content: Waiting for repair documentation
+  - role: user
+    content: I submitted estimates
+  - role: assistant
+    content: We need proof repairs are underway
+  - role: user
+    content: I can't start without money
+  - role: assistant
+    content: Our payment should cover initial work
+  - role: user
+    content: 8,000 doesn't go far
+  - role: assistant
+    content: Prioritize essential repairs
+  - role: user
+    content: What about the other properties?
+  - role: assistant
+    content: What about them?
+  - role: user
+    content: Are they properly insured?
+  - role: assistant
+    content: Let me check your policy
+  - role: user
+    content: I have umbrella coverage right?
+  - role: assistant
+    content: Yes, $1 million umbrella
+  - role: user
+    content: Does that help with this claim?
+  - role: assistant
+    content: Umbrella covers liability, not property damage
+  - role: user
+    content: What's the point then?
+  - role: assistant
+    content: If someone sues you
+  - role: user
+    content: Like a tenant?
+  - role: assistant
+    content: Exactly
+  - role: user
+    content: What if the water damage made someone sick?
+  - role: assistant
+    content: Mold-related?
+  - role: user
+    content: Possibly
+  - role: assistant
+    content: Most policies exclude mold
+  - role: user
+    content: Even the umbrella?
+  - role: assistant
+    content: Checking... yes, mold excluded
+  - role: user
+    content: Great, another gap
+  - role: assistant
+    content: You can buy mold coverage
+  - role: user
+    content: How much?
+  - role: assistant
+    content: About $500 annually per property
+  - role: user
+    content: For all four properties?
+  - role: assistant
+    content: Wait, I show five properties
+  - role: user
+    content: My residence plus four rentals
+  - role: assistant
+    content: There's a sixth address listed
+  - role: user
+    content: What address?
+  - role: assistant
+    content: 234 Maple Street, Unit B
+  - role: user
+    content: That's the mother-in-law suite
+  - role: assistant
+    content: Listed as separate structure
+  - role: user
+    content: It's on the same property
+  - role: assistant
+    content: But separately insured?
+  - role: user
+    content: I guess?
+  - role: assistant
+    content: This complicates things
+  - role: user
+    content: How?
+  - role: assistant
+    content: Is it a legal rental unit?
+  - role: user
+    content: I'm checking on permits
+  - role: assistant
+    content: If unpermitted, coverage is void
+  - role: user
+    content: You'd cancel my insurance?
+  - role: assistant
+    content: For that structure, yes
+  - role: user
+    content: What if there's a claim?
+  - role: assistant
+    content: We wouldn't cover it
+  - role: user
+    content: But I've been paying premiums
+  - role: assistant
+    content: Under false pretenses if unpermitted
+  - role: user
+    content: I didn't know
+  - role: assistant
+    content: Permits are owner responsibility
+  - role: user
+    content: This keeps getting worse
+  - role: assistant
+    content: Verify permits immediately
+  - role: user
+    content: I will
+  - role: assistant
+    content: Also, when did you last update coverage amounts?
+  - role: user
+    content: Maybe two years ago?
+  - role: assistant
+    content: Property values have increased
+  - role: user
+    content: So I'm underinsured?
+  - role: assistant
+    content: Potentially. Oak Street shows $300,000 coverage
+  - role: user
+    content: It's worth $425,000 now
+  - role: assistant
+    content: You're significantly underinsured
+  - role: user
+    content: What happens with a total loss?
+  - role: assistant
+    content: We'd only pay $300,000
+  - role: user
+    content: But I owe $290,000
+  - role: assistant
+    content: Leaves only $10,000 for rebuilding
+  - role: user
+    content: That's terrifying
+  - role: assistant
+    content: Update all coverage amounts
+  - role: user
+    content: Will premiums increase?
+  - role: assistant
+    content: Yes, but you're protected properly
+  - role: user
+    content: How much increase?
+  - role: assistant
+    content: Roughly 30-40% for proper coverage
+  - role: user
+    content: I can't afford that
+  - role: assistant
+    content: Can't afford not to
+  - role: user
+    content: 'True'
+  - role: assistant
+    content: Want me to requote everything?
+  - role: user
+    content: Yes please
+  - role: assistant
+    content: I'll email new quotes this week
+user_question: I just received a lawsuit notice from my Maple Street tenant claiming
+  uninhabitable conditions and demanding $50,000 in damages. What's my exposure here
+  and will insurance cover this?
+evaluation_criteria: 'The agent must identify multiple critical vulnerabilities and
+  coverage gaps by connecting all three conversations:
+
+
+  Major Legal/Financial Exposures:
+
+  1. Unpermitted rental unit (Unit B) voids insurance coverage completely
+
+  2. Two months unpaid rent ($3,000) plus failed eviction suggests tenant has leverage
+
+  3. AC failure for "weeks" at Pine Avenue violates habitability laws
+
+  4. Underinsured properties by $125,000+ leaves personal assets exposed
+
+
+  Insurance Coverage Gaps:
+
+  1. Mold excluded from all policies including umbrella
+
+  2. Unit B insurance void if unpermitted (confirmed by adjuster)
+
+  3. Pattern of "deferred maintenance" could void other claims
+
+  4. Vacancy notification not provided for downstairs Oak Street unit
+
+
+  Documentation Problems:
+
+  1. Cash rent payments ($1,800/month) with no receipts
+
+  2. No proper tenant screening (only credit check, no criminal/eviction)
+
+  3. Failed to document AC repair attempts at Pine Avenue
+
+  4. No inspection of Maple Street property condition
+
+
+  Interconnected Risks:
+
+  1. Refinancing requires clear title but potential mechanic''s lien exists
+
+  2. Can''t close refinance with open insurance claim (Oak Street)
+
+  3. Eviction court proceedings will expose unpermitted unit
+
+  4. $52,800 reserves required but only has $40,000 liquid
+
+
+  Timeline Conflicts:
+
+  1. Refinancing takes 45-60 days but lawsuit is immediate
+
+  2. Insurance claim from April still unresolved in July
+
+  3. Permit verification urgent but retrofitting takes months
+
+  4. Multiple properties need immediate repairs but no funds
+
+
+  Financial Cascade:
+
+  1. Lost rent: $3,000 (Maple) + $1,500 (Oak) + $1,200 (reduction) = $5,700/month
+
+  2. Repairs needed: $4,800 (AC) + $10,000+ (water) + $1,200 (fridge) = $16,000+
+
+  3. Potential lawsuit: $50,000 + legal fees
+
+  4. Insurance premiums increasing 30-40%
+
+
+  The agent should recognize the $50,000 lawsuit likely won''t be covered due to multiple
+  policy violations, particularly the unpermitted unit and mold exclusion. The tenant
+  has strong case given documented inhabitability issues and the owner faces potential
+  personal liability beyond insurance limits.
+
+  '

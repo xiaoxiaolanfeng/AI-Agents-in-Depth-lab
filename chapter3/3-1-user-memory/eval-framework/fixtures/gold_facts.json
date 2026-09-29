@@ -1,0 +1,27 @@
+{
+  "_comment": "Gold key-facts for the offline keyword-recall metric. Every fact below is transcribed verbatim from the conversation histories / evaluation_criteria of the corresponding test_cases/*.yaml file - none are invented. A fact given as a list is an any-of set of acceptable surface forms.",
+  "layer1_01_bank_account": {
+    "required_facts": ["4429853327", "123006800"]
+  },
+  "layer1_02_insurance_claim": {
+    "required_facts": ["CLM-2024-894327", "Patricia Wong", ["24-48", "24 to 48"]]
+  },
+  "layer1_03_medical_appointment": {
+    "required_facts": [["November 21", "Nov 21", "Nov. 21"], "2:30", "Robert Chen", "MV-789234"]
+  },
+  "layer1_04_airline_booking": {
+    "required_facts": ["PAC-778K4M", "12C", "14C"]
+  },
+  "layer2_01_multiple_vehicles": {
+    "required_facts": ["Honda Accord", "Tesla Model 3", "FS-447291"]
+  },
+  "layer2_03_multiple_credit_cards": {
+    "required_facts": [["Chase Freedom", "Freedom Unlimited"], ["Amex Gold", "Amex Gold Card"], "3x"]
+  },
+  "layer3_01_travel_coordination": {
+    "required_facts": ["passport", ["February 18", "Feb 18"], "DELTA-JMK892", "Priority Pass"]
+  },
+  "layer3_04_warranty_coordination": {
+    "required_facts": ["MacBook", ["Chase Sapphire Reserve", "Chase"], ["March 2026", "March 15, 2026"], ["600-800", "600"]]
+  }
+}

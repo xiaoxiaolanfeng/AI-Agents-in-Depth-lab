@@ -1,0 +1,16 @@
+# Real Memobase framework SDK — required by profile_demo.py (Profile + Event
+# memory). Talks to a running Memobase server (self-hosted via docker compose,
+# default http://localhost:8019, or the Memobase cloud). The hand-rolled
+# MemoryStore agent (agent.py/main.py) does NOT need this package.
+memobase>=0.0.27
+
+openai>=1.45.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+tiktoken>=0.5.0
+pydantic>=2.0.0
+rich>=13.5.0
+httpx>=0.25.0
+tenacity>=8.2.0
